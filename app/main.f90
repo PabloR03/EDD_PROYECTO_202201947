@@ -18,9 +18,9 @@ program FASE1_202201947
     integer :: clientes_json, cont1, cont2, cont3, cont4
     integer :: choise, choise_param, amount_window, counter_window
     !QUEUE
-    type(cola_cliente) :: cola_cliente_recepcion
+    type(Queue_Client) :: queue_client_reception
     !LIST WINDOWS 
-    type(lista_ventanilla) :: lista_ventanilla_repecion
+    type(List_Windows) :: list_window_reception
 
     do
         call Menu_Principal()
@@ -100,12 +100,12 @@ program FASE1_202201947
         print *, "EJECUTAR PASO"
         print *, "Cantidad de pasos: ", ejecuccion_de_paso   
         print *, "___________________________________________"
-        call lista_ventanilla_repecion%atender_cliente_ventanilla()
-        call lista_ventanilla_repecion%imprimir_imagenes_cliente()
-        window_available = lista_ventanilla_repecion%ventanilla_disponible()
+        call list_window_reception%atender_cliente_ventanilla()
+        call list_window_reception%imprimir_imagenes_cliente()
+        window_available = list_window_reception%ventanilla_disponible()
         if (window_available) then
-            call cola_cliente_recepcion%pop_cliente(info_cliente)
-            call lista_ventanilla_repecion%asignar_ventanilla(info_cliente(1), info_cliente(2), info_cliente(3), info_cliente(4))
+            call queue_client_reception%pop_client(info_cliente)
+            call list_window_reception%asignar_ventanilla(info_cliente(1), info_cliente(2), info_cliente(3), info_cliente(4))
         end if
         
     end subroutine
@@ -115,19 +115,19 @@ program FASE1_202201947
         print *, "|  Estado de Memoria de las Estructuras     |"
         print *, " ___________________________________________"
         print *, "___________________________________________"
-        call lista_ventanilla_repecion%print_ventanilla()
+        call list_window_reception%print_ventanilla()
         print *, "|                                     |"
-        call lista_ventanilla_repecion%cola_imagen_pequena%print_img_pequena()
+        call list_window_reception%cola_imagen_pequena%print_img_pequena()
         print *, "|                                     |"
-        call lista_ventanilla_repecion%cola_imagen_grande%print_img_grande()
+        call list_window_reception%cola_imagen_grande%print_img_grande()
         print *, "|                                     |"
-        call lista_ventanilla_repecion%lista_clientes_esperando%print_lista()
+        call list_window_reception%lista_clientes_esperando%print_lista()
         print *, "|                                     |"
-        call lista_ventanilla_repecion%lista_clientes_atendido%print_cliente_atendido()
+        call list_window_reception%lista_clientes_atendido%print_cliente_atendido()
         print *, "|                                     |"
-        call cola_cliente_recepcion%print_cliente()
+        call queue_client_reception%print_client()
         print *, "___________________________________________"
-        call  lista_ventanilla_repecion%print_ventanilla()
+        call  list_window_reception%print_ventanilla()
     end subroutine
 
     subroutine Option4()
@@ -167,7 +167,7 @@ program FASE1_202201947
             call jsonc%get(atributo_puntero, img_p)
             call jsonc%get_child(puntero, 'img_g', atributo_puntero, encontrado) 
             call jsonc%get(atributo_puntero, img_g)
-            call cola_cliente_recepcion%push_cliente(trim(id), trim(nombre), trim(img_g), trim(img_p))
+            call queue_client_reception%push_client(trim(id), trim(nombre), trim(img_g), trim(img_p))
         end do
         call json%destroy()
         print *, "Clientes En Cola."
@@ -182,10 +182,10 @@ program FASE1_202201947
         print *, "___________________________________________"
         counter_window = 1
         do cont3 = 1, amount_window
-            call  lista_ventanilla_repecion%agregar_ventanilla(counter_window, "VACIO", "VACIO", "0", "0")
+            call  list_window_reception%agregar_ventanilla(counter_window, "VACIO", "VACIO", "0", "0")
             counter_window=counter_window + 1
         end do
-        call  lista_ventanilla_repecion%print_ventanilla()
+        call  list_window_reception%print_ventanilla()
     end subroutine
 
 end program FASE1_202201947

@@ -1,50 +1,50 @@
 !LIST CLIENTS SERVED
 module mod_client_served
     implicit none
-    type :: nodo_cliente_atendido
+    type :: node_client_served
         character(len=:), allocatable :: id_cliente
         character(len=:), allocatable :: nombre
         character(len=:), allocatable :: img_pequena
         character(len=:), allocatable :: img_grande
         integer :: cantidad_pasos
-        type(nodo_cliente_atendido), pointer :: siguiente => null()
-    end type nodo_cliente_atendido
-    type :: lista_cliente_atendido
-        type(nodo_cliente_atendido), pointer :: cabeza => null()
+        type(node_client_served), pointer :: next => null()
+    end type node_client_served
+    type :: list_client_served
+        type(node_client_served), pointer :: head => null()
     contains
     
         procedure :: insertar_cliente_atendido
         procedure :: print_cliente_atendido
-    end type lista_cliente_atendido
+    end type list_client_served
 
     contains
     subroutine insertar_cliente_atendido(self, id_cliente, nombre, img_pequena, img_grande, cantidad_pasos)
-        class(lista_cliente_atendido), intent(inout) :: self
+        class(list_client_served), intent(inout) :: self
         character(len=*), intent(in) :: id_cliente, nombre, img_pequena, img_grande
         integer, intent(in) :: cantidad_pasos
-        type(nodo_cliente_atendido), pointer :: nuevo_nodo
-        allocate(nuevo_nodo)
-        nuevo_nodo%id_cliente = id_cliente
-        nuevo_nodo%nombre = nombre
-        nuevo_nodo%img_pequena = img_pequena
-        nuevo_nodo%img_grande = img_grande
-        nuevo_nodo%cantidad_pasos = cantidad_pasos
-        nuevo_nodo%siguiente => self%cabeza
-        self%cabeza => nuevo_nodo
+        type(node_client_served), pointer :: new_node
+        allocate(new_node)
+        new_node%id_cliente = id_cliente
+        new_node%nombre = nombre
+        new_node%img_pequena = img_pequena
+        new_node%img_grande = img_grande
+        new_node%cantidad_pasos = cantidad_pasos
+        new_node%next => self%head
+        self%head => new_node
     end subroutine insertar_cliente_atendido
     subroutine print_cliente_atendido(self)
-        class(lista_cliente_atendido), intent(in) :: self
-        type(nodo_cliente_atendido), pointer :: actual
-        actual => self%cabeza
-        do while (associated(actual))
+        class(list_client_served), intent(in) :: self
+        type(node_client_served), pointer :: current
+        current => self%head
+        do while (associated(current))
             print *, "___________________________________________"
-            print *, "ID Cliente: ", actual%id_cliente
-            print *, "Nombre: ", actual%nombre
-            print *, "Imagen Pequena: ", actual%img_pequena
-            print *, "Imagen Grande: ", actual%img_grande
-            print *, "Cantidad de Pasos: ", actual%cantidad_pasos
+            print *, "ID Cliente: ", current%id_cliente
+            print *, "Nombre: ", current%nombre
+            print *, "Imagen Pequena: ", current%img_pequena
+            print *, "Imagen Grande: ", current%img_grande
+            print *, "Cantidad de Pasos: ", current%cantidad_pasos
             print *, "___________________________________________"
-            actual => actual%siguiente
+            current => current%next
         end do
     end subroutine print_cliente_atendido
 end module mod_client_served
