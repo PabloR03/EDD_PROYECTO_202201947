@@ -2,6 +2,7 @@ program FASE1_202201947
     use json_module
     use mod_queue_client
     use mod_list_windows
+    use mod_client_served
     implicit none
     !READ JSON WITH FPM
     type(json_file) :: json
@@ -16,7 +17,8 @@ program FASE1_202201947
     character(:), allocatable :: id, nombre, img_p, img_g
     character(:), allocatable :: ruta
     integer :: clientes_json, cont1, cont2, cont3, cont4
-    integer :: choise, choise_param, amount_window, counter_window
+    integer :: choise, choise_param, amount_window, counter_window, opRep
+    character(len=20) :: id_cliente_search
     !QUEUE
     type(Queue_Client) :: queue_client_reception
     !LIST WINDOWS 
@@ -123,6 +125,8 @@ program FASE1_202201947
         print *, "|                                     |"
         call list_window_reception%lista_clientes_esperando%print_lista()
         print *, "|                                     |"
+        call list_window_reception%lista_clientes_esperando%graphic_waiting_client("CLIENTES_EN_ESPERA")
+        print *, "|                                     |"
         call list_window_reception%lista_clientes_atendido%print_cliente_atendido()
         print *, "|                                     |"
         call queue_client_reception%print_client()
@@ -134,6 +138,34 @@ program FASE1_202201947
         print *, "___________________________________________"
         print *, "                Reportes"
         print *, "Reportes descargados..." 
+
+        print *, "1) 5 CLIENTES CON MAS IMAGENES GRANDES"
+        print *, "2) 5 CLIENTE CON MAS IMAGENES PEQUENAS"
+        print *, "3) CLIENTE CON MAS PASOS"
+        print *, "4) BUSCAR CLIENTE POR ID"
+        read(*,*) opRep
+
+        if (opRep == 1) then
+            print *, "5 CLIENTES CON MAS IMAGENES GRANDES"
+            call queue_client_reception%top5_imgb()
+            print *, "___________________________________________"
+        else if (opRep == 2) then
+            print *, "5 CLIENTE CON MAS IMAGENES PEQUENAS"
+            call queue_client_reception%top5_imgs()
+            print *, "___________________________________________"
+        else if (opRep == 3) then
+            print *, "CLIENTE CON MAS PASOS"
+            call list_window_reception%lista_clientes_atendido%more_steps()
+            print *, "___________________________________________"
+        else if (opRep == 4) then
+            print *, "BUSCANDO INFORMACION DE CLIENTE (ID)"
+            print *, "Ingrese el ID del cliente a buscar:"
+            read(*,*) id_cliente_search
+            call list_window_reception%lista_clientes_atendido%report_by_id(id_cliente_search)
+            print *, "___________________________________________"
+        else
+            print *, "Opcion Incorrecta"
+        end if
         print *, "___________________________________________"
     end subroutine
 

@@ -8,25 +8,38 @@ contains
     procedure :: push_client
     procedure :: pop_client
     procedure :: print_client
+    procedure :: top5_imgb
+    procedure :: top5_imgs
 end type Queue_Client
 type :: nodo_Queue_Client
     character(len=:), allocatable :: id_cliente
     character(len=:), allocatable :: nombre
     character(len=:), allocatable :: img_grande
     character(len=:), allocatable :: img_pequena
+    integer :: small, big
     type(nodo_Queue_Client), pointer :: next
 end type nodo_Queue_Client
+
+type :: count_client
+        character(len=:), allocatable :: nombre
+        integer :: big, small
+    end type count_client
+
 contains
 subroutine push_client(self, id_cliente, nombre, img_grande, img_pequena)
     class(Queue_Client), intent(inout) :: self
     character(len=*), intent(in) :: id_cliente, nombre, img_grande, img_pequena
-    
+    integer :: small, big
     type(nodo_Queue_Client), pointer :: current, new_node
+    READ(img_pequena, *) small
+    READ(img_grande, *) big
     allocate(new_node)
     new_node%id_cliente = id_cliente
     new_node%nombre = nombre
     new_node%img_grande = img_grande
     new_node%img_pequena = img_pequena
+    new_node%big = big
+    new_node%small = small
     new_node%next => null()
 
     if (.not. associated(self%head)) then
@@ -39,6 +52,7 @@ subroutine push_client(self, id_cliente, nombre, img_grande, img_pequena)
         current%next => new_node
     end if
 end subroutine push_client
+
 subroutine pop_client(self, info_cliente)
     class(Queue_Client), intent(inout) :: self
     type(nodo_Queue_Client), pointer :: temp
@@ -73,6 +87,102 @@ subroutine print_client(self)
         current => current%next
     end do
 end subroutine print_client
+
+subroutine top5_imgb(self)
+    class(Queue_Client), intent(in) :: self
+    type(nodo_Queue_Client), pointer :: actual
+    type(count_client), dimension(5) :: top5
+    type(count_client) :: temp
+    integer :: i, j, max_index, count
+    actual => self%head
+    count = 0
+    do while (associated(actual) .and. count < 5)
+        if (actual%big > 0) then
+            count = count + 1
+            top5(count)%nombre = actual%nombre
+            top5(count)%big = actual%big
+        end if
+        actual => actual%next
+    end do
+    do while (associated(actual))
+        max_index = 1
+        do i = 2, count
+            if (top5(i)%big > top5(max_index)%big) then
+                max_index = i
+            end if
+        end do
+        if (actual%big > top5(max_index)%big) then
+            top5(max_index)%nombre = actual%nombre
+            top5(max_index)%big = actual%big
+        end if
+        actual => actual%next
+    end do
+    do i = 1, count-1
+        max_index = i
+        do j = i+1, count
+            if (top5(j)%big > top5(max_index)%big) then
+                max_index = j
+            end if
+        end do
+        if (max_index /= i) then
+            temp = top5(i)
+            top5(i) = top5(max_index)
+            top5(max_index) = temp
+        end if
+    end do
+    do i = 1, count
+        print *, "Cliente: ", top5(i)%nombre, " Imagenes Grandes: ", top5(i)%big
+    end do
+end subroutine top5_imgb
+
+subroutine top5_imgs(self)
+    class(Queue_Client), intent(in) :: self
+    type(nodo_Queue_Client), pointer :: actual
+    type(count_client), dimension(5) :: top5
+    type(count_client) :: temp
+    integer :: i, j, min_index, count
+    actual => self%head
+    count = 0
+    do while (associated(actual) .and. count < 5)
+        if (actual%small > 0) then
+            count = count + 1
+            top5(count)%nombre = actual%nombre
+            top5(count)%small = actual%small
+        end if
+        actual => actual%next
+    end do
+    do while (associated(actual))
+        min_index = 1
+        do i = 2, count
+            if (top5(i)%small < top5(min_index)%small) then
+                min_index = i
+            end if
+        end do
+        if (actual%small < top5(min_index)%small) then
+            top5(min_index)%nombre = actual%nombre
+            top5(min_index)%small = actual%small
+        end if
+        actual => actual%next
+    end do
+    do i = 1, count-1
+        min_index = i
+        do j = i+1, count
+            if (top5(j)%small < top5(min_index)%small) then
+                min_index = j
+            end if
+        end do
+        if (min_index /= i) then
+            temp = top5(i)
+            top5(i) = top5(min_index)
+            top5(min_index) = temp
+        end if
+    end do
+    do i = 1, count
+        print *, "Cliente: ", top5(i)%nombre, " Imagenes Pequenas: ", top5(i)%small
+    end do
+end subroutine top5_imgs
+
+
 end module mod_queue_client
 !STACK IMG
 module mod_stack_img
@@ -318,6 +428,7 @@ contains
     procedure :: append_client
     procedure :: delete_cliente
     procedure :: print_lista
+    procedure :: graphic_waiting_client
 end type list_waiting_client
 contains
 subroutine append_client(self, id_cliente, nombre, img_pequena, img_grande, numero_ventanilla, cantidad_paso)
@@ -393,7 +504,48 @@ subroutine print_lista(self)
         end do
     end if
 end subroutine print_lista
+
+subroutine graphic_waiting_client(self, filename)
+    class(list_waiting_client), intent(inout) :: self
+    character(len=*), intent(in) :: filename
+    integer :: unit, contador
+    type(node_waiting_client), pointer :: actual
+    character(len=:), allocatable :: filepath
+    if (.not. associated(self%head)) then
+        print*,"Lista Clientes En Espera Vacia."
+        return
+    end if
+    filepath = trim(filename) 
+    open(unit, file=filepath, status='replace')
+    write(unit, *) 'digraph cola {node [fontname="Courier New"]'
+    write(unit, *) '    node [shape=box, style=filled, color=red, fillcolor=blue];'
+    actual => self%head
+    contador = 0
+    write(unit, *) '"Node', contador, '" [shape=box, color=red, fillcolor=blue label="',&
+    "Lista Cliente En Espera", '"];'
+    do while (associated(actual))
+        contador = contador + 1
+        write(unit, *) '    "Node', contador, '" [label="', &
+                            "ID Cliente: ", actual%id_cliente, "\n", &
+                            "Nombre: ",actual%nombre, "\n", &
+                            "Imagenes Pequenas: ",actual%img_pequena,"\n", &
+                            "Imagenes Grandes: ",actual%img_grande,"\n", &
+                            "Ventanilla Atentido: ",actual%numero_ventanilla,"\n", &
+                            "Cantidad Pasos Preliminares: ",actual%cantidad_paso,'"];'
+        if (associated(actual%next) .and. .not. associated(actual%next, self%head)) then
+            write(unit, *) '    "Node', contador, '" -> "Node', contador+1, '";'
+        end if
+        actual => actual%next
+        if (associated(actual, self%head)) exit
+    end do 
+    write(unit, *) '}'
+    close(unit)
+    call system('dot -Tpdf "' // trim(filepath) // '" -o "' // trim(adjustl(filepath)) // '.pdf"')
+    print *, 'Grafica Lista Clientes En Espera Correctamente: ', trim(adjustl(filepath)) // '.pdf'
+end subroutine graphic_waiting_client
+
 end module mod_client_waiting
+
 !LIST WINDOWS
 module mod_list_windows
 use mod_stack_img
