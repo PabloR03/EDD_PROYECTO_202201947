@@ -1,0 +1,9 @@
+ digraph cola {node [fontname="Courier New"]
+     node [shape=box, style=filled, color=red, fillcolor=blue];
+ "Node           0 " [shape=box, color=red, fillcolor=blue label="Lista Cliente En Espera"];
+     "Node           1 " [label="ID Cliente: 5                   \nNombre: Luis Garcia         \nImagenes Pequenas: 1                   \nImagenes Grandes: 2                   \nVentanilla Atentido:            5 \nCantidad Pasos Preliminares:           11 "];
+     "Node           1 " -> "Node           2 ";
+     "Node           2 " [label="ID Cliente: 6                   \nNombre: Elena Gonzalez      \nImagenes Pequenas: 3                   \nImagenes Grandes: 1                   \nVentanilla Atentido:            1 \nCantidad Pasos Preliminares:           11 "];
+     "Node           2 " -> "Node           3 ";
+     "Node           3 " [label="ID Cliente: 4                   \nNombre: Ana Rodriguez       \nImagenes Pequenas: 2                   \nImagenes Grandes: 4                   \nVentanilla Atentido:            4 \nCantidad Pasos Preliminares:           11 "];
+ }
