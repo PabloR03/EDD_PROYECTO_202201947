@@ -9,6 +9,9 @@ integer :: values(17) = [20, 8, 3, 1, 0, 15, 30, 48, 26, 10, 7, 5, 60, 19, 11, 2
 ! Declaración de variables
 integer :: choice
 integer :: i, del
+character(len=20) :: usuario, contrasena
+!Para el login 
+logical :: login_successfulC, login_successfulA
 !Para la lectura de los Json
 type(json_file) :: json
 type(json_core) :: jsonc
@@ -33,42 +36,44 @@ character(len=7):: colorcito
 type(mamatrix) :: matriz
 type(abb) :: tree
 
-            !Fila---Columna
-            colorcito="5as5"
-            call matriz%Insertar_nodo(2,2,.true.,colorcito)
-            colorcito="8as5"
-            call matriz%Insertar_nodo(1,1,.true.,colorcito)
-            colorcito="7as5"
-            call matriz%Insertar_nodo(3,3,.true.,colorcito)
-            call matriz%print()
-            ! Insertar valores de values
-            do i = 1, size(values)
-                call tree%insert(values(i))
-            end do 
-            call tree%graph("inserted")
-            del = 30
-            call tree%delete(del)
-            call tree%graph("deleted1")
-            del = 26
-            call tree%delete(del)
-            call tree%graph("deleted2")
-            del = 21
-            call tree%delete(del)
-            call tree%graph("deleted3")
-            del = 11
-            call tree%delete(del)
-            call tree%graph("deleted4")
-            write(*, '(A)') "Escribiendo en preorden: "
-            call tree%preorder()
-            write(*, '(A)') "Escribiendo en inorder: "
-            call tree%inorder()
-            print *, "Escribiendo en posorden: "
-            call tree%posorder()
-
 ! Menú principal
+login_successfulA = .false.
+login_successfulC = .false.
+call login()
+
+
+
+contains
+
+
+subroutine login()
+    do while (.not. login_successfulC .and. .not. login_successfulA)
+        print *, "Ingrese su Usuario: "
+        read(*,*) usuario
+        print *, "Ingrese su Contrasena: "
+        read(*,*) contrasena
+        if (usuario == "admin" .and. contrasena == "12345") then
+            login_successfulA = .true.
+        else if (usuario == "cliente" .and. contrasena == "12345") then
+            login_successfulC = .true.
+        else
+            print *, "Usuario o contrasena Invalidos. Intente de nuevo."
+        end if
+        if (login_successfulC) then
+            call menuCliente()
+            exit
+        else if (login_successfulA) then
+            call menuAdmin()
+            exit
+        end if
+    end do
+end subroutine login
+
+
+subroutine menuCliente()
 do
     print *, "______________________________"
-    print *, "Bienvenido al menu de opciones"
+    print *, "Bienvenido al menu de opciones CLIENTE"
     print *, "1. Visualizar Reportes"
     print *, "2. Carga de Archivos"
     print *, "3. Opcion 3"
@@ -80,166 +85,145 @@ do
     ! Llamada a subrutina según la opcion seleccionada
     select case(choice)
         case(1)
-            call opcion1()
+            call reportesCliente()
         case(2)
-            call opcion2()
-        case(3)
-            call opcion3()
-        case(4)
-            call opcion4()
+            call cargaArchivos()
         case(5)
-            exit ! Salir del programa
+            login_successfulC = .false.
+            call login()
         case default
             print *, "Opción no válida"
     end select
 end do
+end subroutine menuCliente
 
-contains
+subroutine menuAdmin()
+do
+    print *, "______________________________"
+    print *, "Bienvenido al menu de opciones ADMINISTRADOR"
+    print *, "1. Visualizar Reportes"
+    print *, "2. Manejar Clientess"
+    print *, "3. Opcion 3"
+    print *, "4. Opcion 4"
+    print *, "5. Salir"
+    print *, "Seleccione una opcion (1-5): "
+    print *, "______________________________"
+    read(*,*) choice
+    ! Llamada a subrutina según la opcion seleccionada
+    select case(choice)
+        case(1)
+            call reportesClientema()
+        case(2)
+            call manejarClientesma()
+        case(5)
+            login_successfulA = .false.
+            call login()
+        case default
+            print *, "Opción no válida"
+    end select
+end do
+end subroutine menuAdmin
+
+subroutine manejarClientesma()
+    print *, "Ha seleccionado la opcion 2 - Manejar Clientes -"
+end subroutine manejarClientesma
+
+subroutine reportesClientema()
+    print *, "Ha seleccionado la opcion 1 - Visualizar Reportes del Cliente-"
+end subroutine reportesClientema
+
 ! Opciones del Menú Principal
-subroutine opcion1()
-    print *, "Ha seleccionado la opcion 1 - Visualizar Reportes -"
-    ! Aquí puedes colocar el código correspondiente a la opcion 1
-end subroutine opcion1
+subroutine reportesCliente()
+    print *, "Ha seleccionado la opcion 1 - Visualizar Reportes Cliente-"
+    
+end subroutine reportesCliente
 
-subroutine opcion2()
-    character(len=20) :: subChoice
-
-    ! Bucle del menu secundario
+subroutine cargaArchivos()
+    character(len=20) :: subChoices
     do
-        print *, "Ha seleccionado la opcion 2 - Carga de Archivos -"
+        print *, "Ha seleccionado la opcion 2 - Carga de Archivos CLIENTE -"
         print *, "A. Carga de Capas"
         print *, "B. Carga de Imagenes"
         print *, "C. Carga de Albumes"
         print *, "D. Volver al menu principal"
         print *, "Seleccione una opcion (A-D): "
-        read(*,*) subChoice
+        read(*,*) subChoices
         ! Llamada a subrutina según la opcion seleccionada
-        select case(subChoice)
+        select case(subChoices)
             case('A')
-                call opcionA()
+                call cargaCapasmc()
             case('B')
-                call opcionB()
+                call cargaImagenesmc()
             case('C')
-                call opcionC()
+                call cargaAlbumesmc()
             case('D')
-                exit ! Volver al menu principal
+                call menuCliente()
             case default
                 print *, "Opción no válida"
         end select
     end do
-end subroutine opcion2
+end subroutine CargaArchivos
 
-subroutine opcion3()
-    print *, "Ha seleccionado la opcion 3"
-    ! Aquí puedes colocar el código correspondiente a la opcion 3
-end subroutine opcion3
-
-subroutine opcion4()
-    print *, "Ha seleccionado la opcion 4"
-    ! Aquí puedes colocar el código correspondiente a la opcion 4
-end subroutine opcion4
-
-
-! Opciones del Menú Secundario
-subroutine opcionA()
-    print *, "Ha seleccionado la opcion A - Carga de Capas -"
+subroutine cargaCapasmC()
+    print *, "Ha seleccionado la opcion A - Carga de Capas Cliente -"
+    !read(*,*) direccion
     !direccion="z_archivos_carga_datos/capas.json"
     !call cargaCapas(direccion)
-end subroutine opcionA
+end subroutine cargaCapasmC
 
-subroutine opcionB()
+subroutine cargaImagenesmc()
     print *, "Ha seleccionado la opcion B - Carga de Imagenes -"
     ! Aquí puedes colocar el código correspondiente a la opcion B
-end subroutine opcionB
+end subroutine cargaImagenesmc
 
-subroutine opcionC()
+subroutine cargaAlbumesmc()
     print *, "Ha seleccionado la opcion C - Carga de Albumes -"
+    !call matriz%print()
     !print *, "Carga masiva de albumes"
     !direccion="z_archivos_carga_datos/albumes.json"
     !call cargaAlbumes(direccion)
-end subroutine opcionC
+end subroutine cargaAlbumesmc
 
-!Subrutinas de Funcionalidad
-!subroutine cargaMasivaCliente(direccion)
-!    character(len=1000), intent(in) :: direccion
-!    call json%initialize()
-!    call json%load(filename=direccion)
-!    call json%info('',n_children=size)
-!    call json%get_core(jsonc)
-!    call json%get('', listPointer, found)
-!    do iC = 1, size
-!        call jsonc%get_child(listPointer, iC, animalPointer, found)
-!        call jsonc%get_child(animalPointer, 'dpi', attributePointer, found)
-!        call jsonc%get(attributePointer, dpi)
-!        call jsonc%get_child(animalPointer, 'nombre_cliente', attributePointer, found)
-!        call jsonc%get(attributePointer, nombreCliente)
-!        call jsonc%get_child(animalPointer, 'password', attributePointer, found) 
-!        call jsonc%get(attributePointer, password)
-!         print *, "______________________________"
-!         print *, 'DPI: ', dpi
-!         print *, 'Nombre: ', nombreCliente
-!         print *, 'password: ', password
-!    end do
-!    call json%destroy()
-!end subroutine cargaMasivaCliente
-!
-!subroutine cargaCapas(direccion)
-!    character(len=1000), intent(in) :: direccion
-!    call json%initialize()
-!    call json%load(filename=direccion)
-!    call json%info('',n_children=size)
-!    call json%get_core(jsonc)
-!    call json%get('', listPointer, found) !obtengo cada trozo dentro de llaves
-!    do iC = 1, size
-!        call jsonc%get_child(listPointer, iC, animalPointer, found)
-!        call jsonc%get_child(animalPointer, 'id_capa', attributePointer, found)
-!        call jsonc%get(attributePointer, nombreAlbum)
-!        call jsonc%get_child(animalPointer, 'pixeles', attributePointer, found)
-!        call jsonc%info(attributePointer,n_children=sizeAlbumes)
-!        do iCAlbumes = 1, sizeAlbumes
-!            call jsonc%get_child(attributePointer, iCAlbumes, todoAlbumes, found)
-!            call jsonc%get_child(todoAlbumes, 'fila', attributePointerCapas, found)
-!            call jsonc%get(attributePointerCapas, fila)
-!            call jsonc%get_child(todoAlbumes, 'columna', attributePointerCapas, found)
-!            call jsonc%get(attributePointerCapas, columna)
-!            call jsonc%get_child(todoAlbumes, 'color', attributePointerCapas, found)
-!            call jsonc%get(attributePointerCapas, color)
-!            print *, "----"
-!            print *, 'Id capa: ',  nombreAlbum
-!            print *, 'Pixeles '
-!            print *, 'Fila: ', fila
-!            print *, 'Columna: ', columna
-!            print *, 'Color: ', color
-!        end do
-!                do i = 1, 5
-!                    print *, ""
-!                end do
-!    end do
-!    call json%destroy()
-!end subroutine cargaCapas
-!
-!subroutine cargaAlbumes(direccion)
-!    character(len=1000), intent(in) :: direccion
-!    call json%initialize()
-!    call json%load(filename=direccion)
-!    call json%info('',n_children=size)
-!    call json%get_core(jsonc)
-!    call json%get('', listPointer, found) !obtengo cada trozo dentro de llaves
-!    do iC = 1, size
-!        call jsonc%get_child(listPointer, iC, animalPointer, found)
-!        call jsonc%get_child(animalPointer, 'nombre_album', attributePointer, found)
-!        call jsonc%get(attributePointer, nombreAlbum)
-!        call jsonc%get_child(animalPointer, 'imgs', attributePointer, found)
-!        call jsonc%info(attributePointer,n_children=sizeAlbumes)
-!        do iCAlbumes = 1, sizeAlbumes
-!            call jsonc%get_child(attributePointer, iCAlbumes, todoAlbumes, found)
-!            call jsonc%get(todoAlbumes, imgs)
-!            print *, "______________________________"
-!            print *, 'Nombre Album: ',  nombreAlbum
-!            print *, 'Imgs: ', imgs
-!        end do
-!    end do
-!    call json%destroy()
-!end subroutine cargaAlbumes
-
+subroutine cargaCapas() !subroutine cargaCapas(direccion)
+    character(len=1000) :: direccionn
+    !la variable direccionn es igual al valor que le es envuado por parametro
+    !print *, direccionn = direccion
+    !character(len=1000), intent(in) :: direccion
+    !integer :: fila_int, columna_int
+    !call json%initialize()
+    !call json%load(filename=direccion)
+    !call json%info('',n_children=size)
+    !call json%get_core(jsonc)
+    !call json%get('', listPointer, found) !obtengo cada trozo dentro de llaves
+    !do iC = 1, size
+    !    call jsonc%get_child(listPointer, iC, animalPointer, found)
+    !    call jsonc%get_child(animalPointer, 'id_capa', attributePointer, found)
+    !    call jsonc%get(attributePointer, nombreAlbum)
+    !    call jsonc%get_child(animalPointer, 'pixeles', attributePointer, found)
+    !    call jsonc%info(attributePointer,n_children=sizeAlbumes)
+    !    do iCAlbumes = 1, sizeAlbumes
+    !        call jsonc%get_child(attributePointer, iCAlbumes, todoAlbumes, found)
+    !        call jsonc%get_child(todoAlbumes, 'fila', attributePointerCapas, found)
+    !        call jsonc%get(attributePointerCapas, fila)
+    !        call jsonc%get_child(todoAlbumes, 'columna', attributePointerCapas, found)
+    !        call jsonc%get(attributePointerCapas, columna)
+    !        call jsonc%get_child(todoAlbumes, 'color', attributePointerCapas, found)
+    !        call jsonc%get(attributePointerCapas, color)
+    !        print *, "----"
+    !        print *, 'Id capa: ',  nombreAlbum
+    !        print *, 'Pixeles '
+    !        print *, 'Fila: ', fila
+    !        print *, 'Columna: ', columna
+    !        print *, 'Color: ', color
+    !        read(fila, *) fila_int
+    !        read(columna, *) columna_int
+    !        call matriz%Insertar_nodo(fila_int, columna_int, .true., color)  ! Insertar nodo en la matriz
+    !        call tree%insert(fila_int, columna_int, color)
+    !    end do
+    !            do i = 1, 5
+    !                print *, ""
+    !            end do
+    !end do
+    !call json%destroy()
+end subroutine cargaCapas
 end program main
