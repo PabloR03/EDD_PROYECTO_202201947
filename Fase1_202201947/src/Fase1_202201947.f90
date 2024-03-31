@@ -517,7 +517,7 @@ subroutine graphic_waiting_client(self, filename)
     end if
     filepath = trim(filename) 
     open(unit, file=filepath, status='replace')
-    write(unit, *) 'digraph cola {node [fontname="Courier New"]'
+    write(unit, *) 'digraph cola {node [fontname="Comic Sans MS"]'
     write(unit, *) '    node [shape=box, style=filled, color=red, fillcolor=blue];'
     actual => self%head
     contador = 0

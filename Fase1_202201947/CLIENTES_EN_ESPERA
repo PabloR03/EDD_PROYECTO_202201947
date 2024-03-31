@@ -1,4 +1,4 @@
- digraph cola {node [fontname="Courier New"]
+ digraph cola {node [fontname="Comic Sans MS"]
      node [shape=box, style=filled, color=red, fillcolor=blue];
  "Node           0 " [shape=box, color=red, fillcolor=blue label="Lista Cliente En Espera"];
      "Node           1 " [label="ID Cliente: 5                   \nNombre: Luis Garcia         \nImagenes Pequenas: 1                   \nImagenes Grandes: 2                   \nVentanilla Atentido:            5 \nCantidad Pasos Preliminares:           11 "];
