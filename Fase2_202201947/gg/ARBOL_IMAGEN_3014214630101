@@ -1,0 +1,18 @@
+digraph G{
+node [shape=Msquare];
+Titulo [fontname="Comic Sans MS", color=blue shape=component label="Arbol Binario AVL Imagen"]
+{rank=same; Titulo;}
+"2100877502448"[fontname="Comic Sans MS" label="2"];
+"2100877500624"[fontname="Comic Sans MS" label="0", color=purple];
+"2100877500624"[fontname="Comic Sans MS" label="0", color=purple];
+"2100877500576"[fontname="Comic Sans MS" label="2", color=purple];
+"2100877502304"[fontname="Comic Sans MS" label="4", color=purple];
+"2100877504048"[fontname="Comic Sans MS" label="1"];
+"2100877520160"[fontname="Comic Sans MS" label="3"];
+"2100877502448" -> "2100877500624" 
+"2100877500624" -> "2100877500576" [label = "d"];
+"2100877500576" -> "2100877502304" [label = "d"];
+"2100877502448" -> "2100877504048" [label = "i"];
+"2100877502448" -> "2100877520160" [label = "d"];
+}
+
