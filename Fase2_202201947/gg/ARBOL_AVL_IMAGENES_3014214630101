@@ -2,10 +2,10 @@ digraph G{
 node [shape=Mcircle];
 Titulo [fontname="Comic Sans MS", color=red shape=component label="Arbol Binario AVL"]
 {rank=same; Titulo;}
-"2100877502448"[fontname="Comic Sans MS" label="2"];
-"2100877504048"[fontname="Comic Sans MS" label="1"];
-"2100877520160"[fontname="Comic Sans MS" label="3"];
-"2100877502448" -> "2100877504048" [label = "i"];
-"2100877502448" -> "2100877520160" [label = "d"];
+"2715643914352"[fontname="Comic Sans MS" label="2"];
+"2715643916080"[fontname="Comic Sans MS" label="1"];
+"2715643931936"[fontname="Comic Sans MS" label="3"];
+"2715643914352" -> "2715643916080" [label = "i"];
+"2715643914352" -> "2715643931936" [label = "d"];
 }
 

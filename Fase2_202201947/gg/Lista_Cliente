@@ -1,9 +1,7 @@
  digraph cola {node [fontname="Comic Sans MS"]
      node [shape=Msquare, style=filled, color=purple, fillcolor="#3d5a80"];
  "Node           0 "[shape=folder, color=black, fillcolor="#65babf" label="Lista Clientes"];
-     "Node           1 " [label="DPI: 123\nNombre: pablo\nContrasena: 123321"];
+     "Node           1 " [label="DPI: 3213213213212\nNombre: xdcd\nContrasena: 321"];
      "Node           1 " -> "Node           2 ";
-     "Node           2 " [label="DPI: 01234567890\nNombre: cliente 2\nContrasena: edd1s2024"];
-     "Node           2 " -> "Node           3 ";
-     "Node           3 " [label="DPI: 0123456789\nNombre: AUX EDD\nContrasena: edd1s2024"];
+     "Node           2 " [label="DPI: 3014214630101\nNombre: pablo\nContrasena: 123"];
  }

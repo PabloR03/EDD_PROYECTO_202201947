@@ -300,11 +300,11 @@ contains
             read(*,*) opcion_estructura
             select case(opcion_estructura)
                 case('1')
-                    call cliente_actual%arbol_abb_capa%graficar_arbol("ARBOL_ABB_CAPAS_"//dpi_global)
+                    call cliente_actual%arbol_abb_capa%graficar_arbol("abb_"//dpi_global)
                 case('2')
-                    call cliente_actual%arbol_avl_imagen%graficar_arbol("ARBOL_AVL_IMAGENES_"//dpi_global)
+                    call cliente_actual%arbol_avl_imagen%graficar_arbol("avl_"//dpi_global)
                 case('3')
-                    call cliente_actual%lista_doble_album%graficar_album("LISTA_DOBLE_ALBUMES_"//dpi_global)
+                    call cliente_actual%lista_doble_album%graficar_album("ldoble_"//dpi_global)
                 case('4')
                     print *, "_______________________________________"
                     print *, "          Ver Capa Especifica          "
@@ -315,7 +315,7 @@ contains
                     if (existe_matriz) then
                         allocate(matriz_auxiliar)
                         matriz_auxiliar = cliente_actual%arbol_abb_capa%buscar_matriz(numero_capa)
-                        call matriz_auxiliar%graficar_matriz("VER_CAPA_ESPECIFICA_"//dpi_global)
+                        call matriz_auxiliar%graficar_matriz("espe_"//dpi_global)
                         deallocate(matriz_auxiliar)
                     else
                         print*, "Capa No Existe: ", int_to_str(numero_capa)
@@ -328,7 +328,7 @@ contains
                     read(*,*) numero_imagen
                     existe_imagen = cliente_actual%arbol_avl_imagen%valor_existe(numero_imagen)
                     if(existe_imagen)then
-                        call cliente_actual%arbol_avl_imagen%graficar_arbol_imagen("ARBOL_IMAGEN_"//dpi_global,numero_imagen)
+                        call cliente_actual%arbol_avl_imagen%graficar_arbol_imagen("arb_convi_"//dpi_global,numero_imagen)
                     else
                         print*, "Imagen No Existe: ", int_to_str(numero_imagen)
                     end if
@@ -392,7 +392,7 @@ contains
                             call matriz_imagen%insertar_matriz(matriz_auxiliar)
                             deallocate(matriz_auxiliar)
                         end do
-                        call matriz_imagen%graficar_matriz("IMAGEN_PREORDEN_"//dpi_global)
+                        call matriz_imagen%graficar_matriz("preorden_"//dpi_global)
                         deallocate(matriz_imagen)
                     !------------------------------------------!
                     else if (tipo_recorrido==2) then
@@ -412,7 +412,7 @@ contains
                             call matriz_imagen%insertar_matriz(matriz_auxiliar)
                             deallocate(matriz_auxiliar)
                         end do
-                        call matriz_imagen%graficar_matriz("IMAGEN_INORDEN_"//dpi_global)
+                        call matriz_imagen%graficar_matriz("inorden_"//dpi_global)
                         deallocate(matriz_imagen)
                     !------------------------------------------!
                     else if (tipo_recorrido==3) then
@@ -432,7 +432,7 @@ contains
                             call matriz_imagen%insertar_matriz(matriz_auxiliar)
                             deallocate(matriz_auxiliar)
                         end do
-                        call matriz_imagen%graficar_matriz("IMAGEN_POSTORDEN"//dpi_global)
+                        call matriz_imagen%graficar_matriz("postorden_"//dpi_global)
                         deallocate(matriz_imagen)
                     end if
                     print *, "_______________________________________"
@@ -469,7 +469,7 @@ contains
                             end if
                         end do
                         print*,"______"
-                        call matriz_imagen%graficar_matriz("IMAGEN_AMPLITUD"//dpi_global)
+                        call matriz_imagen%graficar_matriz("amplitud_"//dpi_global)
                         deallocate(matriz_imagen)
                     else
                         print *, "Imagen No Existe: ", int_to_str(id_imagen)
@@ -500,7 +500,7 @@ contains
                         end if
                     end do
                     print*,"--------"
-                    call matriz_imagen%graficar_matriz("IMAGEN_POR_CAPA_"//dpi_global)
+                    call matriz_imagen%graficar_matriz("img_capa_"//dpi_global)
                     deallocate(matriz_imagen)
                 case('4')
                     exit
