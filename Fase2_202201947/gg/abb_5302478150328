@@ -1,0 +1,31 @@
+digraph G{
+node [shape=Mcircle];
+Titulo [fontname="Comic Sans MS", color=blue shape=Msquare label="Arbol Binario De Busqueda Capas"]
+{rank=same; Titulo;}
+"2843069876560"[fontname="Comic Sans MS" label="51"];
+"2843069705312"[fontname="Comic Sans MS" label="50"];
+"2843069871568"[fontname="Comic Sans MS" label="55"];
+"2843069874608"[fontname="Comic Sans MS" label="52"];
+"2843069874928"[fontname="Comic Sans MS" label="53"];
+"2843069875008"[fontname="Comic Sans MS" label="54"];
+"2843069874528"[fontname="Comic Sans MS" label="56"];
+"2843069874688"[fontname="Comic Sans MS" label="59"];
+"2843069705392"[fontname="Comic Sans MS" label="57"];
+"2843069705472"[fontname="Comic Sans MS" label="58"];
+"2843069874768"[fontname="Comic Sans MS" label="61"];
+"2843069875088"[fontname="Comic Sans MS" label="60"];
+"2843069874848"[fontname="Comic Sans MS" label="62"];
+"2843069876560" -> "2843069705312" [label = "i"];
+"2843069876560" -> "2843069871568" [label = "d"];
+"2843069871568" -> "2843069874608" [label = "i"];
+"2843069871568" -> "2843069874528" [label = "d"];
+"2843069874608" -> "2843069874928" [label = "d"];
+"2843069874928" -> "2843069875008" [label = "d"];
+"2843069874528" -> "2843069874688" [label = "d"];
+"2843069874688" -> "2843069705392" [label = "i"];
+"2843069874688" -> "2843069874768" [label = "d"];
+"2843069705392" -> "2843069705472" [label = "d"];
+"2843069874768" -> "2843069875088" [label = "i"];
+"2843069874768" -> "2843069874848" [label = "d"];
+}
+

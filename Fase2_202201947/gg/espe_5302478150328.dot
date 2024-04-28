@@ -1,0 +1,1684 @@
+ digraph Matrix {
+ node[shape = "box", style=filled]
+ "Nodo0_0"[label = "raiz", group="0"]                                                                                                                  
+ "Nodo0_0"->"Nodo3_0"
+ "Nodo0_0"->"Nodo3_0"[dir = back]
+ "Nodo0_0"->"Nodo0_10"
+ "Nodo0_0"->"Nodo0_10"[dir = back]
+ "Nodo3_0"[label = "2", group="3"]                                                                                                                     
+ "Nodo3_0"->"Nodo6_0"
+ "Nodo3_0"->"Nodo6_0"[dir = back]
+ "Nodo3_0"->"Nodo3_16"
+ "Nodo3_0"->"Nodo3_16"[dir = back]
+ "Nodo6_0"[label = "5", group="6"]                                                                                                                     
+ "Nodo6_0"->"Nodo7_0"
+ "Nodo6_0"->"Nodo7_0"[dir = back]
+ "Nodo6_0"->"Nodo6_27"
+ "Nodo6_0"->"Nodo6_27"[dir = back]
+ "Nodo7_0"[label = "6", group="7"]                                                                                                                     
+ "Nodo7_0"->"Nodo8_0"
+ "Nodo7_0"->"Nodo8_0"[dir = back]
+ "Nodo7_0"->"Nodo7_30"
+ "Nodo7_0"->"Nodo7_30"[dir = back]
+ "Nodo8_0"[label = "7", group="8"]                                                                                                                     
+ "Nodo8_0"->"Nodo9_0"
+ "Nodo8_0"->"Nodo9_0"[dir = back]
+ "Nodo8_0"->"Nodo8_14"
+ "Nodo8_0"->"Nodo8_14"[dir = back]
+ "Nodo9_0"[label = "8", group="9"]                                                                                                                     
+ "Nodo9_0"->"Nodo10_0"
+ "Nodo9_0"->"Nodo10_0"[dir = back]
+ "Nodo9_0"->"Nodo9_58"
+ "Nodo9_0"->"Nodo9_58"[dir = back]
+ "Nodo10_0"[label = "9", group="10"]                                                                                                                   
+ "Nodo10_0"->"Nodo11_0"
+ "Nodo10_0"->"Nodo11_0"[dir = back]
+ "Nodo10_0"->"Nodo10_42"
+ "Nodo10_0"->"Nodo10_42"[dir = back]
+ "Nodo11_0"[label = "10", group="11"]                                                                                                                  
+ "Nodo11_0"->"Nodo12_0"
+ "Nodo11_0"->"Nodo12_0"[dir = back]
+ "Nodo11_0"->"Nodo11_13"
+ "Nodo11_0"->"Nodo11_13"[dir = back]
+ "Nodo12_0"[label = "11", group="12"]                                                                                                                  
+ "Nodo12_0"->"Nodo13_0"
+ "Nodo12_0"->"Nodo13_0"[dir = back]
+ "Nodo12_0"->"Nodo12_15"
+ "Nodo12_0"->"Nodo12_15"[dir = back]
+ "Nodo13_0"[label = "12", group="13"]                                                                                                                  
+ "Nodo13_0"->"Nodo14_0"
+ "Nodo13_0"->"Nodo14_0"[dir = back]
+ "Nodo13_0"->"Nodo13_19"
+ "Nodo13_0"->"Nodo13_19"[dir = back]
+ "Nodo14_0"[label = "13", group="14"]                                                                                                                  
+ "Nodo14_0"->"Nodo15_0"
+ "Nodo14_0"->"Nodo15_0"[dir = back]
+ "Nodo14_0"->"Nodo14_18"
+ "Nodo14_0"->"Nodo14_18"[dir = back]
+ "Nodo15_0"[label = "14", group="15"]                                                                                                                  
+ "Nodo15_0"->"Nodo16_0"
+ "Nodo15_0"->"Nodo16_0"[dir = back]
+ "Nodo15_0"->"Nodo15_33"
+ "Nodo15_0"->"Nodo15_33"[dir = back]
+ "Nodo16_0"[label = "15", group="16"]                                                                                                                  
+ "Nodo16_0"->"Nodo17_0"
+ "Nodo16_0"->"Nodo17_0"[dir = back]
+ "Nodo16_0"->"Nodo16_10"
+ "Nodo16_0"->"Nodo16_10"[dir = back]
+ "Nodo17_0"[label = "16", group="17"]                                                                                                                  
+ "Nodo17_0"->"Nodo18_0"
+ "Nodo17_0"->"Nodo18_0"[dir = back]
+ "Nodo17_0"->"Nodo17_12"
+ "Nodo17_0"->"Nodo17_12"[dir = back]
+ "Nodo18_0"[label = "17", group="18"]                                                                                                                  
+ "Nodo18_0"->"Nodo19_0"
+ "Nodo18_0"->"Nodo19_0"[dir = back]
+ "Nodo18_0"->"Nodo18_46"
+ "Nodo18_0"->"Nodo18_46"[dir = back]
+ "Nodo19_0"[label = "18", group="19"]                                                                                                                  
+ "Nodo19_0"->"Nodo20_0"
+ "Nodo19_0"->"Nodo20_0"[dir = back]
+ "Nodo19_0"->"Nodo19_36"
+ "Nodo19_0"->"Nodo19_36"[dir = back]
+ "Nodo20_0"[label = "19", group="20"]                                                                                                                  
+ "Nodo20_0"->"Nodo21_0"
+ "Nodo20_0"->"Nodo21_0"[dir = back]
+ "Nodo20_0"->"Nodo20_27"
+ "Nodo20_0"->"Nodo20_27"[dir = back]
+ "Nodo21_0"[label = "20", group="21"]                                                                                                                  
+ "Nodo21_0"->"Nodo22_0"
+ "Nodo21_0"->"Nodo22_0"[dir = back]
+ "Nodo21_0"->"Nodo21_21"
+ "Nodo21_0"->"Nodo21_21"[dir = back]
+ "Nodo22_0"[label = "21", group="22"]                                                                                                                  
+ "Nodo22_0"->"Nodo23_0"
+ "Nodo22_0"->"Nodo23_0"[dir = back]
+ "Nodo22_0"->"Nodo22_14"
+ "Nodo22_0"->"Nodo22_14"[dir = back]
+ "Nodo23_0"[label = "22", group="23"]                                                                                                                  
+ "Nodo23_0"->"Nodo24_0"
+ "Nodo23_0"->"Nodo24_0"[dir = back]
+ "Nodo23_0"->"Nodo23_37"
+ "Nodo23_0"->"Nodo23_37"[dir = back]
+ "Nodo24_0"[label = "23", group="24"]                                                                                                                  
+ "Nodo24_0"->"Nodo25_0"
+ "Nodo24_0"->"Nodo25_0"[dir = back]
+ "Nodo24_0"->"Nodo24_20"
+ "Nodo24_0"->"Nodo24_20"[dir = back]
+ "Nodo25_0"[label = "24", group="25"]                                                                                                                  
+ "Nodo25_0"->"Nodo26_0"
+ "Nodo25_0"->"Nodo26_0"[dir = back]
+ "Nodo25_0"->"Nodo25_23"
+ "Nodo25_0"->"Nodo25_23"[dir = back]
+ "Nodo26_0"[label = "25", group="26"]                                                                                                                  
+ "Nodo26_0"->"Nodo27_0"
+ "Nodo26_0"->"Nodo27_0"[dir = back]
+ "Nodo26_0"->"Nodo26_15"
+ "Nodo26_0"->"Nodo26_15"[dir = back]
+ "Nodo27_0"[label = "26", group="27"]                                                                                                                  
+ "Nodo27_0"->"Nodo28_0"
+ "Nodo27_0"->"Nodo28_0"[dir = back]
+ "Nodo27_0"->"Nodo27_18"
+ "Nodo27_0"->"Nodo27_18"[dir = back]
+ "Nodo28_0"[label = "27", group="28"]                                                                                                                  
+ "Nodo28_0"->"Nodo29_0"
+ "Nodo28_0"->"Nodo29_0"[dir = back]
+ "Nodo28_0"->"Nodo28_33"
+ "Nodo28_0"->"Nodo28_33"[dir = back]
+ "Nodo29_0"[label = "28", group="29"]                                                                                                                  
+ "Nodo29_0"->"Nodo30_0"
+ "Nodo29_0"->"Nodo30_0"[dir = back]
+ "Nodo29_0"->"Nodo29_13"
+ "Nodo29_0"->"Nodo29_13"[dir = back]
+ "Nodo30_0"[label = "29", group="30"]                                                                                                                  
+ "Nodo30_0"->"Nodo31_0"
+ "Nodo30_0"->"Nodo31_0"[dir = back]
+ "Nodo30_0"->"Nodo30_22"
+ "Nodo30_0"->"Nodo30_22"[dir = back]
+ "Nodo31_0"[label = "30", group="31"]                                                                                                                  
+ "Nodo31_0"->"Nodo32_0"
+ "Nodo31_0"->"Nodo32_0"[dir = back]
+ "Nodo31_0"->"Nodo31_46"
+ "Nodo31_0"->"Nodo31_46"[dir = back]
+ "Nodo32_0"[label = "31", group="32"]                                                                                                                  
+ "Nodo32_0"->"Nodo33_0"
+ "Nodo32_0"->"Nodo33_0"[dir = back]
+ "Nodo32_0"->"Nodo32_36"
+ "Nodo32_0"->"Nodo32_36"[dir = back]
+ "Nodo33_0"[label = "32", group="33"]                                                                                                                  
+ "Nodo33_0"->"Nodo34_0"
+ "Nodo33_0"->"Nodo34_0"[dir = back]
+ "Nodo33_0"->"Nodo33_27"
+ "Nodo33_0"->"Nodo33_27"[dir = back]
+ "Nodo34_0"[label = "33", group="34"]                                                                                                                  
+ "Nodo34_0"->"Nodo35_0"
+ "Nodo34_0"->"Nodo35_0"[dir = back]
+ "Nodo34_0"->"Nodo34_21"
+ "Nodo34_0"->"Nodo34_21"[dir = back]
+ "Nodo35_0"[label = "34", group="35"]                                                                                                                  
+ "Nodo35_0"->"Nodo36_0"
+ "Nodo35_0"->"Nodo36_0"[dir = back]
+ "Nodo35_0"->"Nodo35_14"
+ "Nodo35_0"->"Nodo35_14"[dir = back]
+ "Nodo36_0"[label = "35", group="36"]                                                                                                                  
+ "Nodo36_0"->"Nodo37_0"
+ "Nodo36_0"->"Nodo37_0"[dir = back]
+ "Nodo36_0"->"Nodo36_37"
+ "Nodo36_0"->"Nodo36_37"[dir = back]
+ "Nodo37_0"[label = "36", group="37"]                                                                                                                  
+ "Nodo37_0"->"Nodo38_0"
+ "Nodo37_0"->"Nodo38_0"[dir = back]
+ "Nodo37_0"->"Nodo37_20"
+ "Nodo37_0"->"Nodo37_20"[dir = back]
+ "Nodo38_0"[label = "37", group="38"]                                                                                                                  
+ "Nodo38_0"->"Nodo39_0"
+ "Nodo38_0"->"Nodo39_0"[dir = back]
+ "Nodo38_0"->"Nodo38_23"
+ "Nodo38_0"->"Nodo38_23"[dir = back]
+ "Nodo39_0"[label = "38", group="39"]                                                                                                                  
+ "Nodo39_0"->"Nodo40_0"
+ "Nodo39_0"->"Nodo40_0"[dir = back]
+ "Nodo39_0"->"Nodo39_12"
+ "Nodo39_0"->"Nodo39_12"[dir = back]
+ "Nodo40_0"[label = "39", group="40"]                                                                                                                  
+ "Nodo40_0"->"Nodo41_0"
+ "Nodo40_0"->"Nodo41_0"[dir = back]
+ "Nodo40_0"->"Nodo40_18"
+ "Nodo40_0"->"Nodo40_18"[dir = back]
+ "Nodo41_0"[label = "40", group="41"]                                                                                                                  
+ "Nodo41_0"->"Nodo42_0"
+ "Nodo41_0"->"Nodo42_0"[dir = back]
+ "Nodo41_0"->"Nodo41_33"
+ "Nodo41_0"->"Nodo41_33"[dir = back]
+ "Nodo42_0"[label = "41", group="42"]                                                                                                                  
+ "Nodo42_0"->"Nodo43_0"
+ "Nodo42_0"->"Nodo43_0"[dir = back]
+ "Nodo42_0"->"Nodo42_11"
+ "Nodo42_0"->"Nodo42_11"[dir = back]
+ "Nodo43_0"[label = "42", group="43"]                                                                                                                  
+ "Nodo43_0"->"Nodo44_0"
+ "Nodo43_0"->"Nodo44_0"[dir = back]
+ "Nodo43_0"->"Nodo43_22"
+ "Nodo43_0"->"Nodo43_22"[dir = back]
+ "Nodo44_0"[label = "43", group="44"]                                                                                                                  
+ "Nodo44_0"->"Nodo45_0"
+ "Nodo44_0"->"Nodo45_0"[dir = back]
+ "Nodo44_0"->"Nodo44_46"
+ "Nodo44_0"->"Nodo44_46"[dir = back]
+ "Nodo45_0"[label = "44", group="45"]                                                                                                                  
+ "Nodo45_0"->"Nodo46_0"
+ "Nodo45_0"->"Nodo46_0"[dir = back]
+ "Nodo45_0"->"Nodo45_36"
+ "Nodo45_0"->"Nodo45_36"[dir = back]
+ "Nodo46_0"[label = "45", group="46"]                                                                                                                  
+ "Nodo46_0"->"Nodo47_0"
+ "Nodo46_0"->"Nodo47_0"[dir = back]
+ "Nodo46_0"->"Nodo46_27"
+ "Nodo46_0"->"Nodo46_27"[dir = back]
+ "Nodo47_0"[label = "46", group="47"]                                                                                                                  
+ "Nodo47_0"->"Nodo48_0"
+ "Nodo47_0"->"Nodo48_0"[dir = back]
+ "Nodo47_0"->"Nodo47_21"
+ "Nodo47_0"->"Nodo47_21"[dir = back]
+ "Nodo48_0"[label = "47", group="48"]                                                                                                                  
+ "Nodo48_0"->"Nodo49_0"
+ "Nodo48_0"->"Nodo49_0"[dir = back]
+ "Nodo48_0"->"Nodo48_14"
+ "Nodo48_0"->"Nodo48_14"[dir = back]
+ "Nodo49_0"[label = "48", group="49"]                                                                                                                  
+ "Nodo49_0"->"Nodo50_0"
+ "Nodo49_0"->"Nodo50_0"[dir = back]
+ "Nodo49_0"->"Nodo49_37"
+ "Nodo49_0"->"Nodo49_37"[dir = back]
+ "Nodo50_0"[label = "49", group="50"]                                                                                                                  
+ "Nodo50_0"->"Nodo51_0"
+ "Nodo50_0"->"Nodo51_0"[dir = back]
+ "Nodo50_0"->"Nodo50_20"
+ "Nodo50_0"->"Nodo50_20"[dir = back]
+ "Nodo51_0"[label = "50", group="51"]                                                                                                                  
+ "Nodo51_0"->"Nodo52_0"
+ "Nodo51_0"->"Nodo52_0"[dir = back]
+ "Nodo51_0"->"Nodo51_23"
+ "Nodo51_0"->"Nodo51_23"[dir = back]
+ "Nodo52_0"[label = "51", group="52"]                                                                                                                  
+ "Nodo52_0"->"Nodo53_0"
+ "Nodo52_0"->"Nodo53_0"[dir = back]
+ "Nodo52_0"->"Nodo52_19"
+ "Nodo52_0"->"Nodo52_19"[dir = back]
+ "Nodo53_0"[label = "52", group="53"]                                                                                                                  
+ "Nodo53_0"->"Nodo54_0"
+ "Nodo53_0"->"Nodo54_0"[dir = back]
+ "Nodo53_0"->"Nodo53_18"
+ "Nodo53_0"->"Nodo53_18"[dir = back]
+ "Nodo54_0"[label = "53", group="54"]                                                                                                                  
+ "Nodo54_0"->"Nodo55_0"
+ "Nodo54_0"->"Nodo55_0"[dir = back]
+ "Nodo54_0"->"Nodo54_33"
+ "Nodo54_0"->"Nodo54_33"[dir = back]
+ "Nodo55_0"[label = "54", group="55"]                                                                                                                  
+ "Nodo55_0"->"Nodo56_0"
+ "Nodo55_0"->"Nodo56_0"[dir = back]
+ "Nodo55_0"->"Nodo55_16"
+ "Nodo55_0"->"Nodo55_16"[dir = back]
+ "Nodo56_0"[label = "55", group="56"]                                                                                                                  
+ "Nodo56_0"->"Nodo57_0"
+ "Nodo56_0"->"Nodo57_0"[dir = back]
+ "Nodo56_0"->"Nodo56_22"
+ "Nodo56_0"->"Nodo56_22"[dir = back]
+ "Nodo57_0"[label = "56", group="57"]                                                                                                                  
+ "Nodo57_0"->"Nodo58_0"
+ "Nodo57_0"->"Nodo58_0"[dir = back]
+ "Nodo57_0"->"Nodo57_46"
+ "Nodo57_0"->"Nodo57_46"[dir = back]
+ "Nodo58_0"[label = "57", group="58"]                                                                                                                  
+ "Nodo58_0"->"Nodo59_0"
+ "Nodo58_0"->"Nodo59_0"[dir = back]
+ "Nodo58_0"->"Nodo58_36"
+ "Nodo58_0"->"Nodo58_36"[dir = back]
+ "Nodo59_0"[label = "58", group="59"]                                                                                                                  
+ "Nodo59_0"->"Nodo60_0"
+ "Nodo59_0"->"Nodo60_0"[dir = back]
+ "Nodo59_0"->"Nodo59_27"
+ "Nodo59_0"->"Nodo59_27"[dir = back]
+ "Nodo60_0"[label = "59", group="60"]                                                                                                                  
+ "Nodo60_0"->"Nodo61_0"
+ "Nodo60_0"->"Nodo61_0"[dir = back]
+ "Nodo60_0"->"Nodo60_21"
+ "Nodo60_0"->"Nodo60_21"[dir = back]
+ "Nodo61_0"[label = "60", group="61"]                                                                                                                  
+ "Nodo61_0"->"Nodo62_0"
+ "Nodo61_0"->"Nodo62_0"[dir = back]
+ "Nodo61_0"->"Nodo61_41"
+ "Nodo61_0"->"Nodo61_41"[dir = back]
+ "Nodo62_0"[label = "61", group="62"]                                                                                                                  
+ "Nodo62_0"->"Nodo63_0"
+ "Nodo62_0"->"Nodo63_0"[dir = back]
+ "Nodo62_0"->"Nodo62_37"
+ "Nodo62_0"->"Nodo62_37"[dir = back]
+ "Nodo63_0"[label = "62", group="63"]                                                                                                                  
+ "Nodo63_0"->"Nodo64_0"
+ "Nodo63_0"->"Nodo64_0"[dir = back]
+ "Nodo63_0"->"Nodo63_43"
+ "Nodo63_0"->"Nodo63_43"[dir = back]
+ "Nodo64_0"[label = "63", group="64"]                                                                                                                  
+ "Nodo64_0"->"Nodo65_0"
+ "Nodo64_0"->"Nodo65_0"[dir = back]
+ "Nodo64_0"->"Nodo64_48"
+ "Nodo64_0"->"Nodo64_48"[dir = back]
+ "Nodo65_0"[label = "64", group="65"]                                                                                                                  
+ "Nodo65_0"->"Nodo66_0"
+ "Nodo65_0"->"Nodo66_0"[dir = back]
+ "Nodo65_0"->"Nodo65_44"
+ "Nodo65_0"->"Nodo65_44"[dir = back]
+ "Nodo66_0"[label = "65", group="66"]                                                                                                                  
+ "Nodo66_0"->"Nodo67_0"
+ "Nodo66_0"->"Nodo67_0"[dir = back]
+ "Nodo66_0"->"Nodo66_31"
+ "Nodo66_0"->"Nodo66_31"[dir = back]
+ "Nodo67_0"[label = "66", group="67"]                                                                                                                  
+ "Nodo67_0"->"Nodo68_0"
+ "Nodo67_0"->"Nodo68_0"[dir = back]
+ "Nodo67_0"->"Nodo67_33"
+ "Nodo67_0"->"Nodo67_33"[dir = back]
+ "Nodo68_0"[label = "67", group="68"]                                                                                                                  
+ "Nodo68_0"->"Nodo69_0"
+ "Nodo68_0"->"Nodo69_0"[dir = back]
+ "Nodo68_0"->"Nodo68_45"
+ "Nodo68_0"->"Nodo68_45"[dir = back]
+ "Nodo69_0"[label = "68", group="69"]                                                                                                                  
+ "Nodo69_0"->"Nodo70_0"
+ "Nodo69_0"->"Nodo70_0"[dir = back]
+ "Nodo69_0"->"Nodo69_39"
+ "Nodo69_0"->"Nodo69_39"[dir = back]
+ "Nodo70_0"[label = "69", group="70"]                                                                                                                  
+ "Nodo70_0"->"Nodo71_0"
+ "Nodo70_0"->"Nodo71_0"[dir = back]
+ "Nodo70_0"->"Nodo70_46"
+ "Nodo70_0"->"Nodo70_46"[dir = back]
+ "Nodo71_0"[label = "70", group="71"]                                                                                                                  
+ "Nodo71_0"->"Nodo72_0"
+ "Nodo71_0"->"Nodo72_0"[dir = back]
+ "Nodo71_0"->"Nodo71_36"
+ "Nodo71_0"->"Nodo71_36"[dir = back]
+ "Nodo72_0"[label = "71", group="72"]                                                                                                                  
+ "Nodo72_0"->"Nodo72_40"
+ "Nodo72_0"->"Nodo72_40"[dir = back]
+ {rank=same;"Nodo0_0";"Nodo3_0";"Nodo6_0";"Nodo7_0";"Nodo8_0";"Nodo9_0";"Nodo10_0";"Nodo11_0";"Nodo12_0";"Nodo13_0";"Nodo14_0";"Nodo15_0";"Nodo16_0";"Nodo17_0";"Nodo18_0";"Nodo19_0";"Nodo20_0";"Nodo21_0";"Nodo22_0";"Nodo23_0";"Nodo24_0";"Nodo25_0";"Nodo26_0";"Nodo27_0";"Nodo28_0";"Nodo29_0";"Nodo30_0";"Nodo31_0";"Nodo32_0";"Nodo33_0";"Nodo34_0";"Nodo35_0";"Nodo36_0";"Nodo37_0";"Nodo38_0";"Nodo39_0";"Nodo40_0";"Nodo41_0";"Nodo42_0";"Nodo43_0";"Nodo44_0";"Nodo45_0";"Nodo46_0";"Nodo47_0";"Nodo48_0";"Nodo49_0";"Nodo50_0";"Nodo51_0";"Nodo52_0";"Nodo53_0";"Nodo54_0";"Nodo55_0";"Nodo56_0";"Nodo57_0";"Nodo58_0";"Nodo59_0";"Nodo60_0";"Nodo61_0";"Nodo62_0";"Nodo63_0";"Nodo64_0";"Nodo65_0";"Nodo66_0";"Nodo67_0";"Nodo68_0";"Nodo69_0";"Nodo70_0";"Nodo71_0";"Nodo72_0"}
+ "Nodo0_10"[label = "9", group="0"]                                                                                                                    
+ "Nodo0_10"->"Nodo16_10"
+ "Nodo0_10"->"Nodo16_10"[dir = back]
+ "Nodo0_10"->"Nodo0_11"
+ "Nodo0_10"->"Nodo0_11"[dir = back]
+ "Nodo16_10"[label = "", fillcolor="#212b19", group="16"]                                                                                              
+ "Nodo16_10"->"Nodo16_16"
+ "Nodo16_10"->"Nodo16_16"[dir = back]
+ {rank=same;"Nodo0_10";"Nodo16_10"}
+ "Nodo0_11"[label = "10", group="0"]                                                                                                                   
+ "Nodo0_11"->"Nodo42_11"
+ "Nodo0_11"->"Nodo42_11"[dir = back]
+ "Nodo0_11"->"Nodo0_12"
+ "Nodo0_11"->"Nodo0_12"[dir = back]
+ "Nodo42_11"[label = "", fillcolor="#000100", group="42"]                                                                                              
+ "Nodo42_11"->"Nodo42_13"
+ "Nodo42_11"->"Nodo42_13"[dir = back]
+ {rank=same;"Nodo0_11";"Nodo42_11"}
+ "Nodo0_12"[label = "11", group="0"]                                                                                                                   
+ "Nodo0_12"->"Nodo17_12"
+ "Nodo0_12"->"Nodo17_12"[dir = back]
+ "Nodo0_12"->"Nodo0_13"
+ "Nodo0_12"->"Nodo0_13"[dir = back]
+ "Nodo17_12"[label = "", fillcolor="#050606", group="17"]                                                                                              
+ "Nodo17_12"->"Nodo39_12"
+ "Nodo17_12"->"Nodo39_12"[dir = back]
+ "Nodo17_12"->"Nodo17_22"
+ "Nodo17_12"->"Nodo17_22"[dir = back]
+ "Nodo39_12"[label = "", fillcolor="#564348", group="39"]                                                                                              
+ "Nodo39_12"->"Nodo39_15"
+ "Nodo39_12"->"Nodo39_15"[dir = back]
+ {rank=same;"Nodo0_12";"Nodo17_12";"Nodo39_12"}
+ "Nodo0_13"[label = "12", group="0"]                                                                                                                   
+ "Nodo0_13"->"Nodo11_13"
+ "Nodo0_13"->"Nodo11_13"[dir = back]
+ "Nodo0_13"->"Nodo0_14"
+ "Nodo0_13"->"Nodo0_14"[dir = back]
+ "Nodo11_13"[label = "", fillcolor="#deacbc", group="11"]                                                                                              
+ "Nodo11_13"->"Nodo29_13"
+ "Nodo11_13"->"Nodo29_13"[dir = back]
+ "Nodo11_13"->"Nodo11_20"
+ "Nodo11_13"->"Nodo11_20"[dir = back]
+ "Nodo29_13"[label = "", fillcolor="#2f2326", group="29"]                                                                                              
+ "Nodo29_13"->"Nodo42_13"
+ "Nodo29_13"->"Nodo42_13"[dir = back]
+ "Nodo29_13"->"Nodo29_16"
+ "Nodo29_13"->"Nodo29_16"[dir = back]
+ "Nodo42_13"[label = "", fillcolor="#b78b99", group="42"]                                                                                              
+ "Nodo42_13"->"Nodo42_16"
+ "Nodo42_13"->"Nodo42_16"[dir = back]
+ {rank=same;"Nodo0_13";"Nodo11_13";"Nodo29_13";"Nodo42_13"}
+ "Nodo0_14"[label = "13", group="0"]                                                                                                                   
+ "Nodo0_14"->"Nodo8_14"
+ "Nodo0_14"->"Nodo8_14"[dir = back]
+ "Nodo0_14"->"Nodo0_15"
+ "Nodo0_14"->"Nodo0_15"[dir = back]
+ "Nodo8_14"[label = "", fillcolor="#df9cad", group="8"]                                                                                                
+ "Nodo8_14"->"Nodo22_14"
+ "Nodo8_14"->"Nodo22_14"[dir = back]
+ "Nodo8_14"->"Nodo8_21"
+ "Nodo8_14"->"Nodo8_21"[dir = back]
+ "Nodo22_14"[label = "", fillcolor="#000100", group="22"]                                                                                              
+ "Nodo22_14"->"Nodo35_14"
+ "Nodo22_14"->"Nodo35_14"[dir = back]
+ "Nodo22_14"->"Nodo22_41"
+ "Nodo22_14"->"Nodo22_41"[dir = back]
+ "Nodo35_14"[label = "", fillcolor="#dfacbe", group="35"]                                                                                              
+ "Nodo35_14"->"Nodo48_14"
+ "Nodo35_14"->"Nodo48_14"[dir = back]
+ "Nodo35_14"->"Nodo35_41"
+ "Nodo35_14"->"Nodo35_41"[dir = back]
+ "Nodo48_14"[label = "", fillcolor="#372d31", group="48"]                                                                                              
+ "Nodo48_14"->"Nodo48_41"
+ "Nodo48_14"->"Nodo48_41"[dir = back]
+ {rank=same;"Nodo0_14";"Nodo8_14";"Nodo22_14";"Nodo35_14";"Nodo48_14"}
+ "Nodo0_15"[label = "14", group="0"]                                                                                                                   
+ "Nodo0_15"->"Nodo12_15"
+ "Nodo0_15"->"Nodo12_15"[dir = back]
+ "Nodo0_15"->"Nodo0_16"
+ "Nodo0_15"->"Nodo0_16"[dir = back]
+ "Nodo12_15"[label = "", fillcolor="#dea3b4", group="12"]                                                                                              
+ "Nodo12_15"->"Nodo26_15"
+ "Nodo12_15"->"Nodo26_15"[dir = back]
+ "Nodo12_15"->"Nodo12_23"
+ "Nodo12_15"->"Nodo12_23"[dir = back]
+ "Nodo26_15"[label = "", fillcolor="#a1747c", group="26"]                                                                                              
+ "Nodo26_15"->"Nodo39_15"
+ "Nodo26_15"->"Nodo39_15"[dir = back]
+ "Nodo26_15"->"Nodo26_19"
+ "Nodo26_15"->"Nodo26_19"[dir = back]
+ "Nodo39_15"[label = "", fillcolor="#e0b1c1", group="39"]                                                                                              
+ "Nodo39_15"->"Nodo39_19"
+ "Nodo39_15"->"Nodo39_19"[dir = back]
+ {rank=same;"Nodo0_15";"Nodo12_15";"Nodo26_15";"Nodo39_15"}
+ "Nodo0_16"[label = "15", group="0"]                                                                                                                   
+ "Nodo0_16"->"Nodo3_16"
+ "Nodo0_16"->"Nodo3_16"[dir = back]
+ "Nodo0_16"->"Nodo0_17"
+ "Nodo0_16"->"Nodo0_17"[dir = back]
+ "Nodo3_16"[label = "", fillcolor="#161617", group="3"]                                                                                                
+ "Nodo3_16"->"Nodo16_16"
+ "Nodo3_16"->"Nodo16_16"[dir = back]
+ "Nodo16_16"[label = "", fillcolor="#dea8ba", group="16"]                                                                                              
+ "Nodo16_16"->"Nodo29_16"
+ "Nodo16_16"->"Nodo29_16"[dir = back]
+ "Nodo16_16"->"Nodo16_17"
+ "Nodo16_16"->"Nodo16_17"[dir = back]
+ "Nodo29_16"[label = "", fillcolor="#e0a5b5", group="29"]                                                                                              
+ "Nodo29_16"->"Nodo42_16"
+ "Nodo29_16"->"Nodo42_16"[dir = back]
+ "Nodo29_16"->"Nodo29_17"
+ "Nodo29_16"->"Nodo29_17"[dir = back]
+ "Nodo42_16"[label = "", fillcolor="#e0b8c5", group="42"]                                                                                              
+ "Nodo42_16"->"Nodo55_16"
+ "Nodo42_16"->"Nodo55_16"[dir = back]
+ "Nodo42_16"->"Nodo42_17"
+ "Nodo42_16"->"Nodo42_17"[dir = back]
+ "Nodo55_16"[label = "", fillcolor="#11120e", group="55"]                                                                                              
+ "Nodo55_16"->"Nodo55_17"
+ "Nodo55_16"->"Nodo55_17"[dir = back]
+ {rank=same;"Nodo0_16";"Nodo3_16";"Nodo16_16";"Nodo29_16";"Nodo42_16";"Nodo55_16"}
+ "Nodo0_17"[label = "16", group="0"]                                                                                                                   
+ "Nodo0_17"->"Nodo16_17"
+ "Nodo0_17"->"Nodo16_17"[dir = back]
+ "Nodo0_17"->"Nodo0_18"
+ "Nodo0_17"->"Nodo0_18"[dir = back]
+ "Nodo16_17"[label = "", fillcolor="#dda2b6", group="16"]                                                                                              
+ "Nodo16_17"->"Nodo29_17"
+ "Nodo16_17"->"Nodo29_17"[dir = back]
+ "Nodo16_17"->"Nodo16_25"
+ "Nodo16_17"->"Nodo16_25"[dir = back]
+ "Nodo29_17"[label = "", fillcolor="#e0a8b7", group="29"]                                                                                              
+ "Nodo29_17"->"Nodo42_17"
+ "Nodo29_17"->"Nodo42_17"[dir = back]
+ "Nodo29_17"->"Nodo29_25"
+ "Nodo29_17"->"Nodo29_25"[dir = back]
+ "Nodo42_17"[label = "", fillcolor="#dfb8c6", group="42"]                                                                                              
+ "Nodo42_17"->"Nodo55_17"
+ "Nodo42_17"->"Nodo55_17"[dir = back]
+ "Nodo42_17"->"Nodo42_25"
+ "Nodo42_17"->"Nodo42_25"[dir = back]
+ "Nodo55_17"[label = "", fillcolor="#00000a", group="55"]                                                                                              
+ "Nodo55_17"->"Nodo55_25"
+ "Nodo55_17"->"Nodo55_25"[dir = back]
+ {rank=same;"Nodo0_17";"Nodo16_17";"Nodo29_17";"Nodo42_17";"Nodo55_17"}
+ "Nodo0_18"[label = "17", group="0"]                                                                                                                   
+ "Nodo0_18"->"Nodo14_18"
+ "Nodo0_18"->"Nodo14_18"[dir = back]
+ "Nodo0_18"->"Nodo0_19"
+ "Nodo0_18"->"Nodo0_19"[dir = back]
+ "Nodo14_18"[label = "", fillcolor="#de9db0", group="14"]                                                                                              
+ "Nodo14_18"->"Nodo27_18"
+ "Nodo14_18"->"Nodo27_18"[dir = back]
+ "Nodo14_18"->"Nodo14_31"
+ "Nodo14_18"->"Nodo14_31"[dir = back]
+ "Nodo27_18"[label = "", fillcolor="#e0a8b9", group="27"]                                                                                              
+ "Nodo27_18"->"Nodo40_18"
+ "Nodo27_18"->"Nodo40_18"[dir = back]
+ "Nodo27_18"->"Nodo27_31"
+ "Nodo27_18"->"Nodo27_31"[dir = back]
+ "Nodo40_18"[label = "", fillcolor="#dfb6c5", group="40"]                                                                                              
+ "Nodo40_18"->"Nodo53_18"
+ "Nodo40_18"->"Nodo53_18"[dir = back]
+ "Nodo40_18"->"Nodo40_31"
+ "Nodo40_18"->"Nodo40_31"[dir = back]
+ "Nodo53_18"[label = "", fillcolor="#a07c88", group="53"]                                                                                              
+ "Nodo53_18"->"Nodo53_31"
+ "Nodo53_18"->"Nodo53_31"[dir = back]
+ {rank=same;"Nodo0_18";"Nodo14_18";"Nodo27_18";"Nodo40_18";"Nodo53_18"}
+ "Nodo0_19"[label = "18", group="0"]                                                                                                                   
+ "Nodo0_19"->"Nodo13_19"
+ "Nodo0_19"->"Nodo13_19"[dir = back]
+ "Nodo0_19"->"Nodo0_20"
+ "Nodo0_19"->"Nodo0_20"[dir = back]
+ "Nodo13_19"[label = "", fillcolor="#df98a7", group="13"]                                                                                              
+ "Nodo13_19"->"Nodo26_19"
+ "Nodo13_19"->"Nodo26_19"[dir = back]
+ "Nodo13_19"->"Nodo13_29"
+ "Nodo13_19"->"Nodo13_29"[dir = back]
+ "Nodo26_19"[label = "", fillcolor="#e1a8ba", group="26"]                                                                                              
+ "Nodo26_19"->"Nodo39_19"
+ "Nodo26_19"->"Nodo39_19"[dir = back]
+ "Nodo26_19"->"Nodo26_29"
+ "Nodo26_19"->"Nodo26_29"[dir = back]
+ "Nodo39_19"[label = "", fillcolor="#e0b9c8", group="39"]                                                                                              
+ "Nodo39_19"->"Nodo52_19"
+ "Nodo39_19"->"Nodo52_19"[dir = back]
+ "Nodo39_19"->"Nodo39_29"
+ "Nodo39_19"->"Nodo39_29"[dir = back]
+ "Nodo52_19"[label = "", fillcolor="#deacbc", group="52"]                                                                                              
+ "Nodo52_19"->"Nodo52_29"
+ "Nodo52_19"->"Nodo52_29"[dir = back]
+ {rank=same;"Nodo0_19";"Nodo13_19";"Nodo26_19";"Nodo39_19";"Nodo52_19"}
+ "Nodo0_20"[label = "19", group="0"]                                                                                                                   
+ "Nodo0_20"->"Nodo11_20"
+ "Nodo0_20"->"Nodo11_20"[dir = back]
+ "Nodo0_20"->"Nodo0_21"
+ "Nodo0_20"->"Nodo0_21"[dir = back]
+ "Nodo11_20"[label = "", fillcolor="#e2949d", group="11"]                                                                                              
+ "Nodo11_20"->"Nodo24_20"
+ "Nodo11_20"->"Nodo24_20"[dir = back]
+ "Nodo11_20"->"Nodo11_43"
+ "Nodo11_20"->"Nodo11_43"[dir = back]
+ "Nodo24_20"[label = "", fillcolor="#e0a1b3", group="24"]                                                                                              
+ "Nodo24_20"->"Nodo37_20"
+ "Nodo24_20"->"Nodo37_20"[dir = back]
+ "Nodo24_20"->"Nodo24_43"
+ "Nodo24_20"->"Nodo24_43"[dir = back]
+ "Nodo37_20"[label = "", fillcolor="#e0b7c6", group="37"]                                                                                              
+ "Nodo37_20"->"Nodo50_20"
+ "Nodo37_20"->"Nodo50_20"[dir = back]
+ "Nodo37_20"->"Nodo37_43"
+ "Nodo37_20"->"Nodo37_43"[dir = back]
+ "Nodo50_20"[label = "", fillcolor="#deb1c0", group="50"]                                                                                              
+ "Nodo50_20"->"Nodo50_43"
+ "Nodo50_20"->"Nodo50_43"[dir = back]
+ {rank=same;"Nodo0_20";"Nodo11_20";"Nodo24_20";"Nodo37_20";"Nodo50_20"}
+ "Nodo0_21"[label = "20", group="0"]                                                                                                                   
+ "Nodo0_21"->"Nodo8_21"
+ "Nodo0_21"->"Nodo8_21"[dir = back]
+ "Nodo0_21"->"Nodo0_22"
+ "Nodo0_21"->"Nodo0_22"[dir = back]
+ "Nodo8_21"[label = "", fillcolor="#e58785", group="8"]                                                                                                
+ "Nodo8_21"->"Nodo21_21"
+ "Nodo8_21"->"Nodo21_21"[dir = back]
+ "Nodo8_21"->"Nodo8_24"
+ "Nodo8_21"->"Nodo8_24"[dir = back]
+ "Nodo21_21"[label = "", fillcolor="#dd9baf", group="21"]                                                                                              
+ "Nodo21_21"->"Nodo34_21"
+ "Nodo21_21"->"Nodo34_21"[dir = back]
+ "Nodo21_21"->"Nodo21_24"
+ "Nodo21_21"->"Nodo21_24"[dir = back]
+ "Nodo34_21"[label = "", fillcolor="#554a54", group="34"]                                                                                              
+ "Nodo34_21"->"Nodo47_21"
+ "Nodo34_21"->"Nodo47_21"[dir = back]
+ "Nodo34_21"->"Nodo34_24"
+ "Nodo34_21"->"Nodo34_24"[dir = back]
+ "Nodo47_21"[label = "", fillcolor="#e0b8c6", group="47"]                                                                                              
+ "Nodo47_21"->"Nodo60_21"
+ "Nodo47_21"->"Nodo60_21"[dir = back]
+ "Nodo47_21"->"Nodo47_24"
+ "Nodo47_21"->"Nodo47_24"[dir = back]
+ "Nodo60_21"[label = "", fillcolor="#171619", group="60"]                                                                                              
+ "Nodo60_21"->"Nodo60_24"
+ "Nodo60_21"->"Nodo60_24"[dir = back]
+ {rank=same;"Nodo0_21";"Nodo8_21";"Nodo21_21";"Nodo34_21";"Nodo47_21";"Nodo60_21"}
+ "Nodo0_22"[label = "21", group="0"]                                                                                                                   
+ "Nodo0_22"->"Nodo17_22"
+ "Nodo0_22"->"Nodo17_22"[dir = back]
+ "Nodo0_22"->"Nodo0_23"
+ "Nodo0_22"->"Nodo0_23"[dir = back]
+ "Nodo17_22"[label = "", fillcolor="#e096a4", group="17"]                                                                                              
+ "Nodo17_22"->"Nodo30_22"
+ "Nodo17_22"->"Nodo30_22"[dir = back]
+ "Nodo17_22"->"Nodo17_39"
+ "Nodo17_22"->"Nodo17_39"[dir = back]
+ "Nodo30_22"[label = "", fillcolor="#d6a3b3", group="30"]                                                                                              
+ "Nodo30_22"->"Nodo43_22"
+ "Nodo30_22"->"Nodo43_22"[dir = back]
+ "Nodo30_22"->"Nodo30_39"
+ "Nodo30_22"->"Nodo30_39"[dir = back]
+ "Nodo43_22"[label = "", fillcolor="#8c9ca6", group="43"]                                                                                              
+ "Nodo43_22"->"Nodo56_22"
+ "Nodo43_22"->"Nodo56_22"[dir = back]
+ "Nodo43_22"->"Nodo43_39"
+ "Nodo43_22"->"Nodo43_39"[dir = back]
+ "Nodo56_22"[label = "", fillcolor="#dfa2b6", group="56"]                                                                                              
+ "Nodo56_22"->"Nodo56_39"
+ "Nodo56_22"->"Nodo56_39"[dir = back]
+ {rank=same;"Nodo0_22";"Nodo17_22";"Nodo30_22";"Nodo43_22";"Nodo56_22"}
+ "Nodo0_23"[label = "22", group="0"]                                                                                                                   
+ "Nodo0_23"->"Nodo12_23"
+ "Nodo0_23"->"Nodo12_23"[dir = back]
+ "Nodo0_23"->"Nodo0_24"
+ "Nodo0_23"->"Nodo0_24"[dir = back]
+ "Nodo12_23"[label = "", fillcolor="#e09091", group="12"]                                                                                              
+ "Nodo12_23"->"Nodo25_23"
+ "Nodo12_23"->"Nodo25_23"[dir = back]
+ "Nodo12_23"->"Nodo12_26"
+ "Nodo12_23"->"Nodo12_26"[dir = back]
+ "Nodo25_23"[label = "", fillcolor="#e0a2b1", group="25"]                                                                                              
+ "Nodo25_23"->"Nodo38_23"
+ "Nodo25_23"->"Nodo38_23"[dir = back]
+ "Nodo25_23"->"Nodo25_26"
+ "Nodo25_23"->"Nodo25_26"[dir = back]
+ "Nodo38_23"[label = "", fillcolor="#e0bbc8", group="38"]                                                                                              
+ "Nodo38_23"->"Nodo51_23"
+ "Nodo38_23"->"Nodo51_23"[dir = back]
+ "Nodo38_23"->"Nodo38_26"
+ "Nodo38_23"->"Nodo38_26"[dir = back]
+ "Nodo51_23"[label = "", fillcolor="#ddb2c2", group="51"]                                                                                              
+ "Nodo51_23"->"Nodo51_26"
+ "Nodo51_23"->"Nodo51_26"[dir = back]
+ {rank=same;"Nodo0_23";"Nodo12_23";"Nodo25_23";"Nodo38_23";"Nodo51_23"}
+ "Nodo0_24"[label = "23", group="0"]                                                                                                                   
+ "Nodo0_24"->"Nodo8_24"
+ "Nodo0_24"->"Nodo8_24"[dir = back]
+ "Nodo0_24"->"Nodo0_25"
+ "Nodo0_24"->"Nodo0_25"[dir = back]
+ "Nodo8_24"[label = "", fillcolor="#cd7e7f", group="8"]                                                                                                
+ "Nodo8_24"->"Nodo21_24"
+ "Nodo8_24"->"Nodo21_24"[dir = back]
+ "Nodo8_24"->"Nodo8_62"
+ "Nodo8_24"->"Nodo8_62"[dir = back]
+ "Nodo21_24"[label = "", fillcolor="#e19eb1", group="21"]                                                                                              
+ "Nodo21_24"->"Nodo34_24"
+ "Nodo21_24"->"Nodo34_24"[dir = back]
+ "Nodo21_24"->"Nodo21_32"
+ "Nodo21_24"->"Nodo21_32"[dir = back]
+ "Nodo34_24"[label = "", fillcolor="#353d51", group="34"]                                                                                              
+ "Nodo34_24"->"Nodo47_24"
+ "Nodo34_24"->"Nodo47_24"[dir = back]
+ "Nodo34_24"->"Nodo34_32"
+ "Nodo34_24"->"Nodo34_32"[dir = back]
+ "Nodo47_24"[label = "", fillcolor="#e1bac9", group="47"]                                                                                              
+ "Nodo47_24"->"Nodo60_24"
+ "Nodo47_24"->"Nodo60_24"[dir = back]
+ "Nodo47_24"->"Nodo47_32"
+ "Nodo47_24"->"Nodo47_32"[dir = back]
+ "Nodo60_24"[label = "", fillcolor="#000605", group="60"]                                                                                              
+ "Nodo60_24"->"Nodo60_32"
+ "Nodo60_24"->"Nodo60_32"[dir = back]
+ {rank=same;"Nodo0_24";"Nodo8_24";"Nodo21_24";"Nodo34_24";"Nodo47_24";"Nodo60_24"}
+ "Nodo0_25"[label = "24", group="0"]                                                                                                                   
+ "Nodo0_25"->"Nodo16_25"
+ "Nodo0_25"->"Nodo16_25"[dir = back]
+ "Nodo0_25"->"Nodo0_26"
+ "Nodo0_25"->"Nodo0_26"[dir = back]
+ "Nodo16_25"[label = "", fillcolor="#e28e93", group="16"]                                                                                              
+ "Nodo16_25"->"Nodo29_25"
+ "Nodo16_25"->"Nodo29_25"[dir = back]
+ "Nodo16_25"->"Nodo16_28"
+ "Nodo16_25"->"Nodo16_28"[dir = back]
+ "Nodo29_25"[label = "", fillcolor="#e1a6b8", group="29"]                                                                                              
+ "Nodo29_25"->"Nodo42_25"
+ "Nodo29_25"->"Nodo42_25"[dir = back]
+ "Nodo29_25"->"Nodo29_28"
+ "Nodo29_25"->"Nodo29_28"[dir = back]
+ "Nodo42_25"[label = "", fillcolor="#bac8c3", group="42"]                                                                                              
+ "Nodo42_25"->"Nodo55_25"
+ "Nodo42_25"->"Nodo55_25"[dir = back]
+ "Nodo42_25"->"Nodo42_28"
+ "Nodo42_25"->"Nodo42_28"[dir = back]
+ "Nodo55_25"[label = "", fillcolor="#dda7bc", group="55"]                                                                                              
+ "Nodo55_25"->"Nodo55_28"
+ "Nodo55_25"->"Nodo55_28"[dir = back]
+ {rank=same;"Nodo0_25";"Nodo16_25";"Nodo29_25";"Nodo42_25";"Nodo55_25"}
+ "Nodo0_26"[label = "25", group="0"]                                                                                                                   
+ "Nodo0_26"->"Nodo12_26"
+ "Nodo0_26"->"Nodo12_26"[dir = back]
+ "Nodo0_26"->"Nodo0_27"
+ "Nodo0_26"->"Nodo0_27"[dir = back]
+ "Nodo12_26"[label = "", fillcolor="#df8581", group="12"]                                                                                              
+ "Nodo12_26"->"Nodo25_26"
+ "Nodo12_26"->"Nodo25_26"[dir = back]
+ "Nodo12_26"->"Nodo12_48"
+ "Nodo12_26"->"Nodo12_48"[dir = back]
+ "Nodo25_26"[label = "", fillcolor="#dfa3b4", group="25"]                                                                                              
+ "Nodo25_26"->"Nodo38_26"
+ "Nodo25_26"->"Nodo38_26"[dir = back]
+ "Nodo25_26"->"Nodo25_48"
+ "Nodo25_26"->"Nodo25_48"[dir = back]
+ "Nodo38_26"[label = "", fillcolor="#e0bbca", group="38"]                                                                                              
+ "Nodo38_26"->"Nodo51_26"
+ "Nodo38_26"->"Nodo51_26"[dir = back]
+ "Nodo38_26"->"Nodo38_48"
+ "Nodo38_26"->"Nodo38_48"[dir = back]
+ "Nodo51_26"[label = "", fillcolor="#ddb1c1", group="51"]                                                                                              
+ "Nodo51_26"->"Nodo51_48"
+ "Nodo51_26"->"Nodo51_48"[dir = back]
+ {rank=same;"Nodo0_26";"Nodo12_26";"Nodo25_26";"Nodo38_26";"Nodo51_26"}
+ "Nodo0_27"[label = "26", group="0"]                                                                                                                   
+ "Nodo0_27"->"Nodo6_27"
+ "Nodo0_27"->"Nodo6_27"[dir = back]
+ "Nodo0_27"->"Nodo0_28"
+ "Nodo0_27"->"Nodo0_28"[dir = back]
+ "Nodo6_27"[label = "", fillcolor="#0f0f10", group="6"]                                                                                                
+ "Nodo6_27"->"Nodo20_27"
+ "Nodo6_27"->"Nodo20_27"[dir = back]
+ "Nodo6_27"->"Nodo6_61"
+ "Nodo6_27"->"Nodo6_61"[dir = back]
+ "Nodo20_27"[label = "", fillcolor="#e299a7", group="20"]                                                                                              
+ "Nodo20_27"->"Nodo33_27"
+ "Nodo20_27"->"Nodo33_27"[dir = back]
+ "Nodo20_27"->"Nodo20_30"
+ "Nodo20_27"->"Nodo20_30"[dir = back]
+ "Nodo33_27"[label = "", fillcolor="#2a436f", group="33"]                                                                                              
+ "Nodo33_27"->"Nodo46_27"
+ "Nodo33_27"->"Nodo46_27"[dir = back]
+ "Nodo33_27"->"Nodo33_30"
+ "Nodo33_27"->"Nodo33_30"[dir = back]
+ "Nodo46_27"[label = "", fillcolor="#e1bbcb", group="46"]                                                                                              
+ "Nodo46_27"->"Nodo59_27"
+ "Nodo46_27"->"Nodo59_27"[dir = back]
+ "Nodo46_27"->"Nodo46_30"
+ "Nodo46_27"->"Nodo46_30"[dir = back]
+ "Nodo59_27"[label = "", fillcolor="#e1a2b6", group="59"]                                                                                              
+ "Nodo59_27"->"Nodo59_30"
+ "Nodo59_27"->"Nodo59_30"[dir = back]
+ {rank=same;"Nodo0_27";"Nodo6_27";"Nodo20_27";"Nodo33_27";"Nodo46_27";"Nodo59_27"}
+ "Nodo0_28"[label = "27", group="0"]                                                                                                                   
+ "Nodo0_28"->"Nodo16_28"
+ "Nodo0_28"->"Nodo16_28"[dir = back]
+ "Nodo0_28"->"Nodo0_29"
+ "Nodo0_28"->"Nodo0_29"[dir = back]
+ "Nodo16_28"[label = "", fillcolor="#e29297", group="16"]                                                                                              
+ "Nodo16_28"->"Nodo29_28"
+ "Nodo16_28"->"Nodo29_28"[dir = back]
+ "Nodo16_28"->"Nodo16_45"
+ "Nodo16_28"->"Nodo16_45"[dir = back]
+ "Nodo29_28"[label = "", fillcolor="#dea5b7", group="29"]                                                                                              
+ "Nodo29_28"->"Nodo42_28"
+ "Nodo29_28"->"Nodo42_28"[dir = back]
+ "Nodo29_28"->"Nodo29_45"
+ "Nodo29_28"->"Nodo29_45"[dir = back]
+ "Nodo42_28"[label = "", fillcolor="#3c6195", group="42"]                                                                                              
+ "Nodo42_28"->"Nodo55_28"
+ "Nodo42_28"->"Nodo55_28"[dir = back]
+ "Nodo42_28"->"Nodo42_45"
+ "Nodo42_28"->"Nodo42_45"[dir = back]
+ "Nodo55_28"[label = "", fillcolor="#dea7b9", group="55"]                                                                                              
+ "Nodo55_28"->"Nodo55_45"
+ "Nodo55_28"->"Nodo55_45"[dir = back]
+ {rank=same;"Nodo0_28";"Nodo16_28";"Nodo29_28";"Nodo42_28";"Nodo55_28"}
+ "Nodo0_29"[label = "28", group="0"]                                                                                                                   
+ "Nodo0_29"->"Nodo13_29"
+ "Nodo0_29"->"Nodo13_29"[dir = back]
+ "Nodo0_29"->"Nodo0_30"
+ "Nodo0_29"->"Nodo0_30"[dir = back]
+ "Nodo13_29"[label = "", fillcolor="#c86b5b", group="13"]                                                                                              
+ "Nodo13_29"->"Nodo26_29"
+ "Nodo13_29"->"Nodo26_29"[dir = back]
+ "Nodo13_29"->"Nodo13_44"
+ "Nodo13_29"->"Nodo13_44"[dir = back]
+ "Nodo26_29"[label = "", fillcolor="#da8d8c", group="26"]                                                                                              
+ "Nodo26_29"->"Nodo39_29"
+ "Nodo26_29"->"Nodo39_29"[dir = back]
+ "Nodo26_29"->"Nodo26_44"
+ "Nodo26_29"->"Nodo26_44"[dir = back]
+ "Nodo39_29"[label = "", fillcolor="#dfb8c7", group="39"]                                                                                              
+ "Nodo39_29"->"Nodo52_29"
+ "Nodo39_29"->"Nodo52_29"[dir = back]
+ "Nodo39_29"->"Nodo39_44"
+ "Nodo39_29"->"Nodo39_44"[dir = back]
+ "Nodo52_29"[label = "", fillcolor="#dca8b9", group="52"]                                                                                              
+ "Nodo52_29"->"Nodo52_44"
+ "Nodo52_29"->"Nodo52_44"[dir = back]
+ {rank=same;"Nodo0_29";"Nodo13_29";"Nodo26_29";"Nodo39_29";"Nodo52_29"}
+ "Nodo0_30"[label = "29", group="0"]                                                                                                                   
+ "Nodo0_30"->"Nodo7_30"
+ "Nodo0_30"->"Nodo7_30"[dir = back]
+ "Nodo0_30"->"Nodo0_31"
+ "Nodo0_30"->"Nodo0_31"[dir = back]
+ "Nodo7_30"[label = "", fillcolor="#161718", group="7"]                                                                                                
+ "Nodo7_30"->"Nodo20_30"
+ "Nodo7_30"->"Nodo20_30"[dir = back]
+ "Nodo20_30"[label = "", fillcolor="#e097a3", group="20"]                                                                                              
+ "Nodo20_30"->"Nodo33_30"
+ "Nodo20_30"->"Nodo33_30"[dir = back]
+ "Nodo20_30"->"Nodo20_40"
+ "Nodo20_30"->"Nodo20_40"[dir = back]
+ "Nodo33_30"[label = "", fillcolor="#796373", group="33"]                                                                                              
+ "Nodo33_30"->"Nodo46_30"
+ "Nodo33_30"->"Nodo46_30"[dir = back]
+ "Nodo33_30"->"Nodo33_40"
+ "Nodo33_30"->"Nodo33_40"[dir = back]
+ "Nodo46_30"[label = "", fillcolor="#deaebd", group="46"]                                                                                              
+ "Nodo46_30"->"Nodo59_30"
+ "Nodo46_30"->"Nodo59_30"[dir = back]
+ "Nodo46_30"->"Nodo46_40"
+ "Nodo46_30"->"Nodo46_40"[dir = back]
+ "Nodo59_30"[label = "", fillcolor="#dd9fb3", group="59"]                                                                                              
+ "Nodo59_30"->"Nodo59_40"
+ "Nodo59_30"->"Nodo59_40"[dir = back]
+ {rank=same;"Nodo0_30";"Nodo7_30";"Nodo20_30";"Nodo33_30";"Nodo46_30";"Nodo59_30"}
+ "Nodo0_31"[label = "30", group="0"]                                                                                                                   
+ "Nodo0_31"->"Nodo14_31"
+ "Nodo0_31"->"Nodo14_31"[dir = back]
+ "Nodo0_31"->"Nodo0_32"
+ "Nodo0_31"->"Nodo0_32"[dir = back]
+ "Nodo14_31"[label = "", fillcolor="#e38f96", group="14"]                                                                                              
+ "Nodo14_31"->"Nodo27_31"
+ "Nodo14_31"->"Nodo27_31"[dir = back]
+ "Nodo14_31"->"Nodo14_35"
+ "Nodo14_31"->"Nodo14_35"[dir = back]
+ "Nodo27_31"[label = "", fillcolor="#dfa4b3", group="27"]                                                                                              
+ "Nodo27_31"->"Nodo40_31"
+ "Nodo27_31"->"Nodo40_31"[dir = back]
+ "Nodo27_31"->"Nodo27_35"
+ "Nodo27_31"->"Nodo27_35"[dir = back]
+ "Nodo40_31"[label = "", fillcolor="#deb0c0", group="40"]                                                                                              
+ "Nodo40_31"->"Nodo53_31"
+ "Nodo40_31"->"Nodo53_31"[dir = back]
+ "Nodo40_31"->"Nodo40_35"
+ "Nodo40_31"->"Nodo40_35"[dir = back]
+ "Nodo53_31"[label = "", fillcolor="#dca1b5", group="53"]                                                                                              
+ "Nodo53_31"->"Nodo66_31"
+ "Nodo53_31"->"Nodo66_31"[dir = back]
+ "Nodo53_31"->"Nodo53_35"
+ "Nodo53_31"->"Nodo53_35"[dir = back]
+ "Nodo66_31"[label = "", fillcolor="#000005", group="66"]                                                                                              
+ "Nodo66_31"->"Nodo66_35"
+ "Nodo66_31"->"Nodo66_35"[dir = back]
+ {rank=same;"Nodo0_31";"Nodo14_31";"Nodo27_31";"Nodo40_31";"Nodo53_31";"Nodo66_31"}
+ "Nodo0_32"[label = "31", group="0"]                                                                                                                   
+ "Nodo0_32"->"Nodo21_32"
+ "Nodo0_32"->"Nodo21_32"[dir = back]
+ "Nodo0_32"->"Nodo0_33"
+ "Nodo0_32"->"Nodo0_33"[dir = back]
+ "Nodo21_32"[label = "", fillcolor="#df97a5", group="21"]                                                                                              
+ "Nodo21_32"->"Nodo34_32"
+ "Nodo21_32"->"Nodo34_32"[dir = back]
+ "Nodo21_32"->"Nodo21_34"
+ "Nodo21_32"->"Nodo21_34"[dir = back]
+ "Nodo34_32"[label = "", fillcolor="#dfa9bb", group="34"]                                                                                              
+ "Nodo34_32"->"Nodo47_32"
+ "Nodo34_32"->"Nodo47_32"[dir = back]
+ "Nodo34_32"->"Nodo34_34"
+ "Nodo34_32"->"Nodo34_34"[dir = back]
+ "Nodo47_32"[label = "", fillcolor="#deaebf", group="47"]                                                                                              
+ "Nodo47_32"->"Nodo60_32"
+ "Nodo47_32"->"Nodo60_32"[dir = back]
+ "Nodo47_32"->"Nodo47_34"
+ "Nodo47_32"->"Nodo47_34"[dir = back]
+ "Nodo60_32"[label = "", fillcolor="#dc9db1", group="60"]                                                                                              
+ "Nodo60_32"->"Nodo60_34"
+ "Nodo60_32"->"Nodo60_34"[dir = back]
+ {rank=same;"Nodo0_32";"Nodo21_32";"Nodo34_32";"Nodo47_32";"Nodo60_32"}
+ "Nodo0_33"[label = "32", group="0"]                                                                                                                   
+ "Nodo0_33"->"Nodo15_33"
+ "Nodo0_33"->"Nodo15_33"[dir = back]
+ "Nodo0_33"->"Nodo0_34"
+ "Nodo0_33"->"Nodo0_34"[dir = back]
+ "Nodo15_33"[label = "", fillcolor="#e28e91", group="15"]                                                                                              
+ "Nodo15_33"->"Nodo28_33"
+ "Nodo15_33"->"Nodo28_33"[dir = back]
+ "Nodo28_33"[label = "", fillcolor="#df9eae", group="28"]                                                                                              
+ "Nodo28_33"->"Nodo41_33"
+ "Nodo28_33"->"Nodo41_33"[dir = back]
+ "Nodo41_33"[label = "", fillcolor="#a67c88", group="41"]                                                                                              
+ "Nodo41_33"->"Nodo54_33"
+ "Nodo41_33"->"Nodo54_33"[dir = back]
+ "Nodo54_33"[label = "", fillcolor="#dea0b2", group="54"]                                                                                              
+ "Nodo54_33"->"Nodo67_33"
+ "Nodo54_33"->"Nodo67_33"[dir = back]
+ "Nodo67_33"[label = "", fillcolor="#020609", group="67"]                                                                                              
+ {rank=same;"Nodo0_33";"Nodo15_33";"Nodo28_33";"Nodo41_33";"Nodo54_33";"Nodo67_33"}
+ "Nodo0_34"[label = "33", group="0"]                                                                                                                   
+ "Nodo0_34"->"Nodo21_34"
+ "Nodo0_34"->"Nodo21_34"[dir = back]
+ "Nodo0_34"->"Nodo0_35"
+ "Nodo0_34"->"Nodo0_35"[dir = back]
+ "Nodo21_34"[label = "", fillcolor="#e096a2", group="21"]                                                                                              
+ "Nodo21_34"->"Nodo34_34"
+ "Nodo21_34"->"Nodo34_34"[dir = back]
+ "Nodo21_34"->"Nodo21_62"
+ "Nodo21_34"->"Nodo21_62"[dir = back]
+ "Nodo34_34"[label = "", fillcolor="#8b3b27", group="34"]                                                                                              
+ "Nodo34_34"->"Nodo47_34"
+ "Nodo34_34"->"Nodo47_34"[dir = back]
+ "Nodo34_34"->"Nodo34_62"
+ "Nodo34_34"->"Nodo34_62"[dir = back]
+ "Nodo47_34"[label = "", fillcolor="#dda8ba", group="47"]                                                                                              
+ "Nodo47_34"->"Nodo60_34"
+ "Nodo47_34"->"Nodo60_34"[dir = back]
+ "Nodo47_34"->"Nodo47_62"
+ "Nodo47_34"->"Nodo47_62"[dir = back]
+ "Nodo60_34"[label = "", fillcolor="#db9aad", group="60"]                                                                                              
+ "Nodo60_34"->"Nodo60_62"
+ "Nodo60_34"->"Nodo60_62"[dir = back]
+ {rank=same;"Nodo0_34";"Nodo21_34";"Nodo34_34";"Nodo47_34";"Nodo60_34"}
+ "Nodo0_35"[label = "34", group="0"]                                                                                                                   
+ "Nodo0_35"->"Nodo14_35"
+ "Nodo0_35"->"Nodo14_35"[dir = back]
+ "Nodo0_35"->"Nodo0_36"
+ "Nodo0_35"->"Nodo0_36"[dir = back]
+ "Nodo14_35"[label = "", fillcolor="#e48b8c", group="14"]                                                                                              
+ "Nodo14_35"->"Nodo27_35"
+ "Nodo14_35"->"Nodo27_35"[dir = back]
+ "Nodo14_35"->"Nodo14_38"
+ "Nodo14_35"->"Nodo14_38"[dir = back]
+ "Nodo27_35"[label = "", fillcolor="#e09bac", group="27"]                                                                                              
+ "Nodo27_35"->"Nodo40_35"
+ "Nodo27_35"->"Nodo40_35"[dir = back]
+ "Nodo27_35"->"Nodo27_38"
+ "Nodo27_35"->"Nodo27_38"[dir = back]
+ "Nodo40_35"[label = "", fillcolor="#a7482b", group="40"]                                                                                              
+ "Nodo40_35"->"Nodo53_35"
+ "Nodo40_35"->"Nodo53_35"[dir = back]
+ "Nodo40_35"->"Nodo40_38"
+ "Nodo40_35"->"Nodo40_38"[dir = back]
+ "Nodo53_35"[label = "", fillcolor="#dea0b3", group="53"]                                                                                              
+ "Nodo53_35"->"Nodo66_35"
+ "Nodo53_35"->"Nodo66_35"[dir = back]
+ "Nodo53_35"->"Nodo53_38"
+ "Nodo53_35"->"Nodo53_38"[dir = back]
+ "Nodo66_35"[label = "", fillcolor="#d5a0b1", group="66"]                                                                                              
+ "Nodo66_35"->"Nodo66_38"
+ "Nodo66_35"->"Nodo66_38"[dir = back]
+ {rank=same;"Nodo0_35";"Nodo14_35";"Nodo27_35";"Nodo40_35";"Nodo53_35";"Nodo66_35"}
+ "Nodo0_36"[label = "35", group="0"]                                                                                                                   
+ "Nodo0_36"->"Nodo19_36"
+ "Nodo0_36"->"Nodo19_36"[dir = back]
+ "Nodo0_36"->"Nodo0_37"
+ "Nodo0_36"->"Nodo0_37"[dir = back]
+ "Nodo19_36"[label = "", fillcolor="#e18e91", group="19"]                                                                                              
+ "Nodo19_36"->"Nodo32_36"
+ "Nodo19_36"->"Nodo32_36"[dir = back]
+ "Nodo19_36"->"Nodo19_61"
+ "Nodo19_36"->"Nodo19_61"[dir = back]
+ "Nodo32_36"[label = "", fillcolor="#986a77", group="32"]                                                                                              
+ "Nodo32_36"->"Nodo45_36"
+ "Nodo32_36"->"Nodo45_36"[dir = back]
+ "Nodo32_36"->"Nodo32_61"
+ "Nodo32_36"->"Nodo32_61"[dir = back]
+ "Nodo45_36"[label = "", fillcolor="#dfa5b6", group="45"]                                                                                              
+ "Nodo45_36"->"Nodo58_36"
+ "Nodo45_36"->"Nodo58_36"[dir = back]
+ "Nodo45_36"->"Nodo45_61"
+ "Nodo45_36"->"Nodo45_61"[dir = back]
+ "Nodo58_36"[label = "", fillcolor="#de99a9", group="58"]                                                                                              
+ "Nodo58_36"->"Nodo71_36"
+ "Nodo58_36"->"Nodo71_36"[dir = back]
+ "Nodo58_36"->"Nodo58_61"
+ "Nodo58_36"->"Nodo58_61"[dir = back]
+ "Nodo71_36"[label = "", fillcolor="#211c1d", group="71"]                                                                                              
+ {rank=same;"Nodo0_36";"Nodo19_36";"Nodo32_36";"Nodo45_36";"Nodo58_36";"Nodo71_36"}
+ "Nodo0_37"[label = "36", group="0"]                                                                                                                   
+ "Nodo0_37"->"Nodo23_37"
+ "Nodo0_37"->"Nodo23_37"[dir = back]
+ "Nodo0_37"->"Nodo0_38"
+ "Nodo0_37"->"Nodo0_38"[dir = back]
+ "Nodo23_37"[label = "", fillcolor="#e195a0", group="23"]                                                                                              
+ "Nodo23_37"->"Nodo36_37"
+ "Nodo23_37"->"Nodo36_37"[dir = back]
+ "Nodo23_37"->"Nodo23_42"
+ "Nodo23_37"->"Nodo23_42"[dir = back]
+ "Nodo36_37"[label = "", fillcolor="#c74a56", group="36"]                                                                                              
+ "Nodo36_37"->"Nodo49_37"
+ "Nodo36_37"->"Nodo49_37"[dir = back]
+ "Nodo36_37"->"Nodo36_42"
+ "Nodo36_37"->"Nodo36_42"[dir = back]
+ "Nodo49_37"[label = "", fillcolor="#e09eb1", group="49"]                                                                                              
+ "Nodo49_37"->"Nodo62_37"
+ "Nodo49_37"->"Nodo62_37"[dir = back]
+ "Nodo49_37"->"Nodo49_42"
+ "Nodo49_37"->"Nodo49_42"[dir = back]
+ "Nodo62_37"[label = "", fillcolor="#df9eaf", group="62"]                                                                                              
+ "Nodo62_37"->"Nodo62_42"
+ "Nodo62_37"->"Nodo62_42"[dir = back]
+ {rank=same;"Nodo0_37";"Nodo23_37";"Nodo36_37";"Nodo49_37";"Nodo62_37"}
+ "Nodo0_38"[label = "37", group="0"]                                                                                                                   
+ "Nodo0_38"->"Nodo14_38"
+ "Nodo0_38"->"Nodo14_38"[dir = back]
+ "Nodo0_38"->"Nodo0_39"
+ "Nodo0_38"->"Nodo0_39"[dir = back]
+ "Nodo14_38"[label = "", fillcolor="#e38681", group="14"]                                                                                              
+ "Nodo14_38"->"Nodo27_38"
+ "Nodo14_38"->"Nodo27_38"[dir = back]
+ "Nodo14_38"->"Nodo14_55"
+ "Nodo14_38"->"Nodo14_55"[dir = back]
+ "Nodo27_38"[label = "", fillcolor="#e096a7", group="27"]                                                                                              
+ "Nodo27_38"->"Nodo40_38"
+ "Nodo27_38"->"Nodo40_38"[dir = back]
+ "Nodo27_38"->"Nodo27_55"
+ "Nodo27_38"->"Nodo27_55"[dir = back]
+ "Nodo40_38"[label = "", fillcolor="#e85767", group="40"]                                                                                              
+ "Nodo40_38"->"Nodo53_38"
+ "Nodo40_38"->"Nodo53_38"[dir = back]
+ "Nodo40_38"->"Nodo40_55"
+ "Nodo40_38"->"Nodo40_55"[dir = back]
+ "Nodo53_38"[label = "", fillcolor="#de9aad", group="53"]                                                                                              
+ "Nodo53_38"->"Nodo66_38"
+ "Nodo53_38"->"Nodo66_38"[dir = back]
+ "Nodo53_38"->"Nodo53_55"
+ "Nodo53_38"->"Nodo53_55"[dir = back]
+ "Nodo66_38"[label = "", fillcolor="#dba4b5", group="66"]                                                                                              
+ {rank=same;"Nodo0_38";"Nodo14_38";"Nodo27_38";"Nodo40_38";"Nodo53_38";"Nodo66_38"}
+ "Nodo0_39"[label = "38", group="0"]                                                                                                                   
+ "Nodo0_39"->"Nodo17_39"
+ "Nodo0_39"->"Nodo17_39"[dir = back]
+ "Nodo0_39"->"Nodo0_40"
+ "Nodo0_39"->"Nodo0_40"[dir = back]
+ "Nodo17_39"[label = "", fillcolor="#e08179", group="17"]                                                                                              
+ "Nodo17_39"->"Nodo30_39"
+ "Nodo17_39"->"Nodo30_39"[dir = back]
+ "Nodo17_39"->"Nodo17_54"
+ "Nodo17_39"->"Nodo17_54"[dir = back]
+ "Nodo30_39"[label = "", fillcolor="#df99aa", group="30"]                                                                                              
+ "Nodo30_39"->"Nodo43_39"
+ "Nodo30_39"->"Nodo43_39"[dir = back]
+ "Nodo30_39"->"Nodo30_54"
+ "Nodo30_39"->"Nodo30_54"[dir = back]
+ "Nodo43_39"[label = "", fillcolor="#dfa0ae", group="43"]                                                                                              
+ "Nodo43_39"->"Nodo56_39"
+ "Nodo43_39"->"Nodo56_39"[dir = back]
+ "Nodo43_39"->"Nodo43_54"
+ "Nodo43_39"->"Nodo43_54"[dir = back]
+ "Nodo56_39"[label = "", fillcolor="#de9cac", group="56"]                                                                                              
+ "Nodo56_39"->"Nodo69_39"
+ "Nodo56_39"->"Nodo69_39"[dir = back]
+ "Nodo56_39"->"Nodo56_54"
+ "Nodo56_39"->"Nodo56_54"[dir = back]
+ "Nodo69_39"[label = "", fillcolor="#b78a9b", group="69"]                                                                                              
+ {rank=same;"Nodo0_39";"Nodo17_39";"Nodo30_39";"Nodo43_39";"Nodo56_39";"Nodo69_39"}
+ "Nodo0_40"[label = "39", group="0"]                                                                                                                   
+ "Nodo0_40"->"Nodo20_40"
+ "Nodo0_40"->"Nodo20_40"[dir = back]
+ "Nodo0_40"->"Nodo0_41"
+ "Nodo0_40"->"Nodo0_41"[dir = back]
+ "Nodo20_40"[label = "", fillcolor="#e18a88", group="20"]                                                                                              
+ "Nodo20_40"->"Nodo33_40"
+ "Nodo20_40"->"Nodo33_40"[dir = back]
+ "Nodo33_40"[label = "", fillcolor="#de9aa8", group="33"]                                                                                              
+ "Nodo33_40"->"Nodo46_40"
+ "Nodo33_40"->"Nodo46_40"[dir = back]
+ "Nodo46_40"[label = "", fillcolor="#df9aac", group="46"]                                                                                              
+ "Nodo46_40"->"Nodo59_40"
+ "Nodo46_40"->"Nodo59_40"[dir = back]
+ "Nodo46_40"->"Nodo46_65"
+ "Nodo46_40"->"Nodo46_65"[dir = back]
+ "Nodo59_40"[label = "", fillcolor="#df95a0", group="59"]                                                                                              
+ "Nodo59_40"->"Nodo72_40"
+ "Nodo59_40"->"Nodo72_40"[dir = back]
+ "Nodo59_40"->"Nodo59_65"
+ "Nodo59_40"->"Nodo59_65"[dir = back]
+ "Nodo72_40"[label = "", fillcolor="#06060b", group="72"]                                                                                              
+ {rank=same;"Nodo0_40";"Nodo20_40";"Nodo33_40";"Nodo46_40";"Nodo59_40";"Nodo72_40"}
+ "Nodo0_41"[label = "40", group="0"]                                                                                                                   
+ "Nodo0_41"->"Nodo22_41"
+ "Nodo0_41"->"Nodo22_41"[dir = back]
+ "Nodo0_41"->"Nodo0_42"
+ "Nodo0_41"->"Nodo0_42"[dir = back]
+ "Nodo22_41"[label = "", fillcolor="#de8b8e", group="22"]                                                                                              
+ "Nodo22_41"->"Nodo35_41"
+ "Nodo22_41"->"Nodo35_41"[dir = back]
+ "Nodo22_41"->"Nodo22_47"
+ "Nodo22_41"->"Nodo22_47"[dir = back]
+ "Nodo35_41"[label = "", fillcolor="#9e6876", group="35"]                                                                                              
+ "Nodo35_41"->"Nodo48_41"
+ "Nodo35_41"->"Nodo48_41"[dir = back]
+ "Nodo35_41"->"Nodo35_47"
+ "Nodo35_41"->"Nodo35_47"[dir = back]
+ "Nodo48_41"[label = "", fillcolor="#e098a6", group="48"]                                                                                              
+ "Nodo48_41"->"Nodo61_41"
+ "Nodo48_41"->"Nodo61_41"[dir = back]
+ "Nodo48_41"->"Nodo48_47"
+ "Nodo48_41"->"Nodo48_47"[dir = back]
+ "Nodo61_41"[label = "", fillcolor="#e0929a", group="61"]                                                                                              
+ "Nodo61_41"->"Nodo61_47"
+ "Nodo61_41"->"Nodo61_47"[dir = back]
+ {rank=same;"Nodo0_41";"Nodo22_41";"Nodo35_41";"Nodo48_41";"Nodo61_41"}
+ "Nodo0_42"[label = "41", group="0"]                                                                                                                   
+ "Nodo0_42"->"Nodo10_42"
+ "Nodo0_42"->"Nodo10_42"[dir = back]
+ "Nodo0_42"->"Nodo0_43"
+ "Nodo0_42"->"Nodo0_43"[dir = back]
+ "Nodo10_42"[label = "", fillcolor="#0a0a0a", group="10"]                                                                                              
+ "Nodo10_42"->"Nodo23_42"
+ "Nodo10_42"->"Nodo23_42"[dir = back]
+ "Nodo10_42"->"Nodo10_56"
+ "Nodo10_42"->"Nodo10_56"[dir = back]
+ "Nodo23_42"[label = "", fillcolor="#dd8d90", group="23"]                                                                                              
+ "Nodo23_42"->"Nodo36_42"
+ "Nodo23_42"->"Nodo36_42"[dir = back]
+ "Nodo23_42"->"Nodo23_56"
+ "Nodo23_42"->"Nodo23_56"[dir = back]
+ "Nodo36_42"[label = "", fillcolor="#b57b8a", group="36"]                                                                                              
+ "Nodo36_42"->"Nodo49_42"
+ "Nodo36_42"->"Nodo49_42"[dir = back]
+ "Nodo36_42"->"Nodo36_56"
+ "Nodo36_42"->"Nodo36_56"[dir = back]
+ "Nodo49_42"[label = "", fillcolor="#e19baa", group="49"]                                                                                              
+ "Nodo49_42"->"Nodo62_42"
+ "Nodo49_42"->"Nodo62_42"[dir = back]
+ "Nodo49_42"->"Nodo49_56"
+ "Nodo49_42"->"Nodo49_56"[dir = back]
+ "Nodo62_42"[label = "", fillcolor="#df8e93", group="62"]                                                                                              
+ "Nodo62_42"->"Nodo62_56"
+ "Nodo62_42"->"Nodo62_56"[dir = back]
+ {rank=same;"Nodo0_42";"Nodo10_42";"Nodo23_42";"Nodo36_42";"Nodo49_42";"Nodo62_42"}
+ "Nodo0_43"[label = "42", group="0"]                                                                                                                   
+ "Nodo0_43"->"Nodo11_43"
+ "Nodo0_43"->"Nodo11_43"[dir = back]
+ "Nodo0_43"->"Nodo0_44"
+ "Nodo0_43"->"Nodo0_44"[dir = back]
+ "Nodo11_43"[label = "", fillcolor="#040101", group="11"]                                                                                              
+ "Nodo11_43"->"Nodo24_43"
+ "Nodo11_43"->"Nodo24_43"[dir = back]
+ "Nodo24_43"[label = "", fillcolor="#e09199", group="24"]                                                                                              
+ "Nodo24_43"->"Nodo37_43"
+ "Nodo24_43"->"Nodo37_43"[dir = back]
+ "Nodo24_43"->"Nodo24_50"
+ "Nodo24_43"->"Nodo24_50"[dir = back]
+ "Nodo37_43"[label = "", fillcolor="#e29cac", group="37"]                                                                                              
+ "Nodo37_43"->"Nodo50_43"
+ "Nodo37_43"->"Nodo50_43"[dir = back]
+ "Nodo37_43"->"Nodo37_50"
+ "Nodo37_43"->"Nodo37_50"[dir = back]
+ "Nodo50_43"[label = "", fillcolor="#e199a7", group="50"]                                                                                              
+ "Nodo50_43"->"Nodo63_43"
+ "Nodo50_43"->"Nodo63_43"[dir = back]
+ "Nodo50_43"->"Nodo50_50"
+ "Nodo50_43"->"Nodo50_50"[dir = back]
+ "Nodo63_43"[label = "", fillcolor="#dd8d90", group="63"]                                                                                              
+ "Nodo63_43"->"Nodo63_63"
+ "Nodo63_43"->"Nodo63_63"[dir = back]
+ {rank=same;"Nodo0_43";"Nodo11_43";"Nodo24_43";"Nodo37_43";"Nodo50_43";"Nodo63_43"}
+ "Nodo0_44"[label = "43", group="0"]                                                                                                                   
+ "Nodo0_44"->"Nodo13_44"
+ "Nodo0_44"->"Nodo13_44"[dir = back]
+ "Nodo0_44"->"Nodo0_45"
+ "Nodo0_44"->"Nodo0_45"[dir = back]
+ "Nodo13_44"[label = "", fillcolor="#533738", group="13"]                                                                                              
+ "Nodo13_44"->"Nodo26_44"
+ "Nodo13_44"->"Nodo26_44"[dir = back]
+ "Nodo13_44"->"Nodo13_59"
+ "Nodo13_44"->"Nodo13_59"[dir = back]
+ "Nodo26_44"[label = "", fillcolor="#de9097", group="26"]                                                                                              
+ "Nodo26_44"->"Nodo39_44"
+ "Nodo26_44"->"Nodo39_44"[dir = back]
+ "Nodo26_44"->"Nodo26_51"
+ "Nodo26_44"->"Nodo26_51"[dir = back]
+ "Nodo39_44"[label = "", fillcolor="#e299a9", group="39"]                                                                                              
+ "Nodo39_44"->"Nodo52_44"
+ "Nodo39_44"->"Nodo52_44"[dir = back]
+ "Nodo39_44"->"Nodo39_51"
+ "Nodo39_44"->"Nodo39_51"[dir = back]
+ "Nodo52_44"[label = "", fillcolor="#e196a2", group="52"]                                                                                              
+ "Nodo52_44"->"Nodo65_44"
+ "Nodo52_44"->"Nodo65_44"[dir = back]
+ "Nodo52_44"->"Nodo52_51"
+ "Nodo52_44"->"Nodo52_51"[dir = back]
+ "Nodo65_44"[label = "", fillcolor="#de8a8d", group="65"]                                                                                              
+ "Nodo65_44"->"Nodo65_50"
+ "Nodo65_44"->"Nodo65_50"[dir = back]
+ {rank=same;"Nodo0_44";"Nodo13_44";"Nodo26_44";"Nodo39_44";"Nodo52_44";"Nodo65_44"}
+ "Nodo0_45"[label = "44", group="0"]                                                                                                                   
+ "Nodo0_45"->"Nodo16_45"
+ "Nodo0_45"->"Nodo16_45"[dir = back]
+ "Nodo0_45"->"Nodo0_46"
+ "Nodo0_45"->"Nodo0_46"[dir = back]
+ "Nodo16_45"[label = "", fillcolor="#e5827b", group="16"]                                                                                              
+ "Nodo16_45"->"Nodo29_45"
+ "Nodo16_45"->"Nodo29_45"[dir = back]
+ "Nodo16_45"->"Nodo16_49"
+ "Nodo16_45"->"Nodo16_49"[dir = back]
+ "Nodo29_45"[label = "", fillcolor="#df929d", group="29"]                                                                                              
+ "Nodo29_45"->"Nodo42_45"
+ "Nodo29_45"->"Nodo42_45"[dir = back]
+ "Nodo29_45"->"Nodo29_49"
+ "Nodo29_45"->"Nodo29_49"[dir = back]
+ "Nodo42_45"[label = "", fillcolor="#e19cab", group="42"]                                                                                              
+ "Nodo42_45"->"Nodo55_45"
+ "Nodo42_45"->"Nodo55_45"[dir = back]
+ "Nodo42_45"->"Nodo42_49"
+ "Nodo42_45"->"Nodo42_49"[dir = back]
+ "Nodo55_45"[label = "", fillcolor="#e1949c", group="55"]                                                                                              
+ "Nodo55_45"->"Nodo68_45"
+ "Nodo55_45"->"Nodo68_45"[dir = back]
+ "Nodo55_45"->"Nodo55_49"
+ "Nodo55_45"->"Nodo55_49"[dir = back]
+ "Nodo68_45"[label = "", fillcolor="#e08480", group="68"]                                                                                              
+ "Nodo68_45"->"Nodo68_49"
+ "Nodo68_45"->"Nodo68_49"[dir = back]
+ {rank=same;"Nodo0_45";"Nodo16_45";"Nodo29_45";"Nodo42_45";"Nodo55_45";"Nodo68_45"}
+ "Nodo0_46"[label = "45", group="0"]                                                                                                                   
+ "Nodo0_46"->"Nodo18_46"
+ "Nodo0_46"->"Nodo18_46"[dir = back]
+ "Nodo0_46"->"Nodo0_47"
+ "Nodo0_46"->"Nodo0_47"[dir = back]
+ "Nodo18_46"[label = "", fillcolor="#e07d73", group="18"]                                                                                              
+ "Nodo18_46"->"Nodo31_46"
+ "Nodo18_46"->"Nodo31_46"[dir = back]
+ "Nodo18_46"->"Nodo18_53"
+ "Nodo18_46"->"Nodo18_53"[dir = back]
+ "Nodo31_46"[label = "", fillcolor="#e094a0", group="31"]                                                                                              
+ "Nodo31_46"->"Nodo44_46"
+ "Nodo31_46"->"Nodo44_46"[dir = back]
+ "Nodo31_46"->"Nodo31_53"
+ "Nodo31_46"->"Nodo31_53"[dir = back]
+ "Nodo44_46"[label = "", fillcolor="#e19cab", group="44"]                                                                                              
+ "Nodo44_46"->"Nodo57_46"
+ "Nodo44_46"->"Nodo57_46"[dir = back]
+ "Nodo44_46"->"Nodo44_53"
+ "Nodo44_46"->"Nodo44_53"[dir = back]
+ "Nodo57_46"[label = "", fillcolor="#e08d90", group="57"]                                                                                              
+ "Nodo57_46"->"Nodo70_46"
+ "Nodo57_46"->"Nodo70_46"[dir = back]
+ "Nodo57_46"->"Nodo57_53"
+ "Nodo57_46"->"Nodo57_53"[dir = back]
+ "Nodo70_46"[label = "", fillcolor="#976569", group="70"]                                                                                              
+ {rank=same;"Nodo0_46";"Nodo18_46";"Nodo31_46";"Nodo44_46";"Nodo57_46";"Nodo70_46"}
+ "Nodo0_47"[label = "46", group="0"]                                                                                                                   
+ "Nodo0_47"->"Nodo22_47"
+ "Nodo0_47"->"Nodo22_47"[dir = back]
+ "Nodo0_47"->"Nodo0_48"
+ "Nodo0_47"->"Nodo0_48"[dir = back]
+ "Nodo22_47"[label = "", fillcolor="#df8480", group="22"]                                                                                              
+ "Nodo22_47"->"Nodo35_47"
+ "Nodo22_47"->"Nodo35_47"[dir = back]
+ "Nodo22_47"->"Nodo22_58"
+ "Nodo22_47"->"Nodo22_58"[dir = back]
+ "Nodo35_47"[label = "", fillcolor="#dd96a5", group="35"]                                                                                              
+ "Nodo35_47"->"Nodo48_47"
+ "Nodo35_47"->"Nodo48_47"[dir = back]
+ "Nodo35_47"->"Nodo35_58"
+ "Nodo35_47"->"Nodo35_58"[dir = back]
+ "Nodo48_47"[label = "", fillcolor="#e196a4", group="48"]                                                                                              
+ "Nodo48_47"->"Nodo61_47"
+ "Nodo48_47"->"Nodo61_47"[dir = back]
+ "Nodo48_47"->"Nodo48_58"
+ "Nodo48_47"->"Nodo48_58"[dir = back]
+ "Nodo61_47"[label = "", fillcolor="#a15444", group="61"]                                                                                              
+ "Nodo61_47"->"Nodo61_58"
+ "Nodo61_47"->"Nodo61_58"[dir = back]
+ {rank=same;"Nodo0_47";"Nodo22_47";"Nodo35_47";"Nodo48_47";"Nodo61_47"}
+ "Nodo0_48"[label = "47", group="0"]                                                                                                                   
+ "Nodo0_48"->"Nodo12_48"
+ "Nodo0_48"->"Nodo12_48"[dir = back]
+ "Nodo0_48"->"Nodo0_49"
+ "Nodo0_48"->"Nodo0_49"[dir = back]
+ "Nodo12_48"[label = "", fillcolor="#111213", group="12"]                                                                                              
+ "Nodo12_48"->"Nodo25_48"
+ "Nodo12_48"->"Nodo25_48"[dir = back]
+ "Nodo12_48"->"Nodo12_64"
+ "Nodo12_48"->"Nodo12_64"[dir = back]
+ "Nodo25_48"[label = "", fillcolor="#df8581", group="25"]                                                                                              
+ "Nodo25_48"->"Nodo38_48"
+ "Nodo25_48"->"Nodo38_48"[dir = back]
+ "Nodo25_48"->"Nodo25_64"
+ "Nodo25_48"->"Nodo25_64"[dir = back]
+ "Nodo38_48"[label = "", fillcolor="#dd95a4", group="38"]                                                                                              
+ "Nodo38_48"->"Nodo51_48"
+ "Nodo38_48"->"Nodo51_48"[dir = back]
+ "Nodo51_48"[label = "", fillcolor="#e1939c", group="51"]                                                                                              
+ "Nodo51_48"->"Nodo64_48"
+ "Nodo51_48"->"Nodo64_48"[dir = back]
+ "Nodo51_48"->"Nodo51_66"
+ "Nodo51_48"->"Nodo51_66"[dir = back]
+ "Nodo64_48"[label = "", fillcolor="#df837b", group="64"]                                                                                              
+ "Nodo64_48"->"Nodo64_66"
+ "Nodo64_48"->"Nodo64_66"[dir = back]
+ {rank=same;"Nodo0_48";"Nodo12_48";"Nodo25_48";"Nodo38_48";"Nodo51_48";"Nodo64_48"}
+ "Nodo0_49"[label = "48", group="0"]                                                                                                                   
+ "Nodo0_49"->"Nodo16_49"
+ "Nodo0_49"->"Nodo16_49"[dir = back]
+ "Nodo0_49"->"Nodo0_50"
+ "Nodo0_49"->"Nodo0_50"[dir = back]
+ "Nodo16_49"[label = "", fillcolor="#d2909b", group="16"]                                                                                              
+ "Nodo16_49"->"Nodo29_49"
+ "Nodo16_49"->"Nodo29_49"[dir = back]
+ "Nodo16_49"->"Nodo16_52"
+ "Nodo16_49"->"Nodo16_52"[dir = back]
+ "Nodo29_49"[label = "", fillcolor="#dd898d", group="29"]                                                                                              
+ "Nodo29_49"->"Nodo42_49"
+ "Nodo29_49"->"Nodo42_49"[dir = back]
+ "Nodo29_49"->"Nodo29_52"
+ "Nodo29_49"->"Nodo29_52"[dir = back]
+ "Nodo42_49"[label = "", fillcolor="#e1959c", group="42"]                                                                                              
+ "Nodo42_49"->"Nodo55_49"
+ "Nodo42_49"->"Nodo55_49"[dir = back]
+ "Nodo42_49"->"Nodo42_52"
+ "Nodo42_49"->"Nodo42_52"[dir = back]
+ "Nodo55_49"[label = "", fillcolor="#e08782", group="55"]                                                                                              
+ "Nodo55_49"->"Nodo68_49"
+ "Nodo55_49"->"Nodo68_49"[dir = back]
+ "Nodo55_49"->"Nodo55_52"
+ "Nodo55_49"->"Nodo55_52"[dir = back]
+ "Nodo68_49"[label = "", fillcolor="#070c0e", group="68"]                                                                                              
+ {rank=same;"Nodo0_49";"Nodo16_49";"Nodo29_49";"Nodo42_49";"Nodo55_49";"Nodo68_49"}
+ "Nodo0_50"[label = "49", group="0"]                                                                                                                   
+ "Nodo0_50"->"Nodo24_50"
+ "Nodo0_50"->"Nodo24_50"[dir = back]
+ "Nodo0_50"->"Nodo0_51"
+ "Nodo0_50"->"Nodo0_51"[dir = back]
+ "Nodo24_50"[label = "", fillcolor="#de827c", group="24"]                                                                                              
+ "Nodo24_50"->"Nodo37_50"
+ "Nodo24_50"->"Nodo37_50"[dir = back]
+ "Nodo37_50"[label = "", fillcolor="#de9098", group="37"]                                                                                              
+ "Nodo37_50"->"Nodo50_50"
+ "Nodo37_50"->"Nodo50_50"[dir = back]
+ "Nodo37_50"->"Nodo37_63"
+ "Nodo37_50"->"Nodo37_63"[dir = back]
+ "Nodo50_50"[label = "", fillcolor="#e09097", group="50"]                                                                                              
+ "Nodo50_50"->"Nodo65_50"
+ "Nodo50_50"->"Nodo65_50"[dir = back]
+ "Nodo50_50"->"Nodo50_63"
+ "Nodo50_50"->"Nodo50_63"[dir = back]
+ "Nodo65_50"[label = "", fillcolor="#000404", group="65"]                                                                                              
+ "Nodo65_50"->"Nodo65_59"
+ "Nodo65_50"->"Nodo65_59"[dir = back]
+ {rank=same;"Nodo0_50";"Nodo24_50";"Nodo37_50";"Nodo50_50";"Nodo65_50"}
+ "Nodo0_51"[label = "50", group="0"]                                                                                                                   
+ "Nodo0_51"->"Nodo26_51"
+ "Nodo0_51"->"Nodo26_51"[dir = back]
+ "Nodo0_51"->"Nodo0_52"
+ "Nodo0_51"->"Nodo0_52"[dir = back]
+ "Nodo26_51"[label = "", fillcolor="#e0827c", group="26"]                                                                                              
+ "Nodo26_51"->"Nodo39_51"
+ "Nodo26_51"->"Nodo39_51"[dir = back]
+ "Nodo26_51"->"Nodo26_59"
+ "Nodo26_51"->"Nodo26_59"[dir = back]
+ "Nodo39_51"[label = "", fillcolor="#df919b", group="39"]                                                                                              
+ "Nodo39_51"->"Nodo52_51"
+ "Nodo39_51"->"Nodo52_51"[dir = back]
+ "Nodo39_51"->"Nodo39_59"
+ "Nodo39_51"->"Nodo39_59"[dir = back]
+ "Nodo52_51"[label = "", fillcolor="#e18784", group="52"]                                                                                              
+ "Nodo52_51"->"Nodo52_59"
+ "Nodo52_51"->"Nodo52_59"[dir = back]
+ {rank=same;"Nodo0_51";"Nodo26_51";"Nodo39_51";"Nodo52_51"}
+ "Nodo0_52"[label = "51", group="0"]                                                                                                                   
+ "Nodo0_52"->"Nodo16_52"
+ "Nodo0_52"->"Nodo16_52"[dir = back]
+ "Nodo0_52"->"Nodo0_53"
+ "Nodo0_52"->"Nodo0_53"[dir = back]
+ "Nodo16_52"[label = "", fillcolor="#1a0a0a", group="16"]                                                                                              
+ "Nodo16_52"->"Nodo29_52"
+ "Nodo16_52"->"Nodo29_52"[dir = back]
+ "Nodo29_52"[label = "", fillcolor="#e1827b", group="29"]                                                                                              
+ "Nodo29_52"->"Nodo42_52"
+ "Nodo29_52"->"Nodo42_52"[dir = back]
+ "Nodo42_52"[label = "", fillcolor="#e38e92", group="42"]                                                                                              
+ "Nodo42_52"->"Nodo55_52"
+ "Nodo42_52"->"Nodo55_52"[dir = back]
+ "Nodo55_52"[label = "", fillcolor="#de857f", group="55"]                                                                                              
+ "Nodo55_52"->"Nodo55_68"
+ "Nodo55_52"->"Nodo55_68"[dir = back]
+ {rank=same;"Nodo0_52";"Nodo16_52";"Nodo29_52";"Nodo42_52";"Nodo55_52"}
+ "Nodo0_53"[label = "52", group="0"]                                                                                                                   
+ "Nodo0_53"->"Nodo18_53"
+ "Nodo0_53"->"Nodo18_53"[dir = back]
+ "Nodo0_53"->"Nodo0_54"
+ "Nodo0_53"->"Nodo0_54"[dir = back]
+ "Nodo18_53"[label = "", fillcolor="#6d494d", group="18"]                                                                                              
+ "Nodo18_53"->"Nodo31_53"
+ "Nodo18_53"->"Nodo31_53"[dir = back]
+ "Nodo31_53"[label = "", fillcolor="#e07f76", group="31"]                                                                                              
+ "Nodo31_53"->"Nodo44_53"
+ "Nodo31_53"->"Nodo44_53"[dir = back]
+ "Nodo44_53"[label = "", fillcolor="#e18987", group="44"]                                                                                              
+ "Nodo44_53"->"Nodo57_53"
+ "Nodo44_53"->"Nodo57_53"[dir = back]
+ "Nodo57_53"[label = "", fillcolor="#4c2929", group="57"]                                                                                              
+ "Nodo57_53"->"Nodo57_69"
+ "Nodo57_53"->"Nodo57_69"[dir = back]
+ {rank=same;"Nodo0_53";"Nodo18_53";"Nodo31_53";"Nodo44_53";"Nodo57_53"}
+ "Nodo0_54"[label = "53", group="0"]                                                                                                                   
+ "Nodo0_54"->"Nodo17_54"
+ "Nodo0_54"->"Nodo17_54"[dir = back]
+ "Nodo0_54"->"Nodo0_55"
+ "Nodo0_54"->"Nodo0_55"[dir = back]
+ "Nodo17_54"[label = "", fillcolor="#a84334", group="17"]                                                                                              
+ "Nodo17_54"->"Nodo30_54"
+ "Nodo17_54"->"Nodo30_54"[dir = back]
+ "Nodo17_54"->"Nodo17_57"
+ "Nodo17_54"->"Nodo17_57"[dir = back]
+ "Nodo30_54"[label = "", fillcolor="#e07e73", group="30"]                                                                                              
+ "Nodo30_54"->"Nodo43_54"
+ "Nodo30_54"->"Nodo43_54"[dir = back]
+ "Nodo30_54"->"Nodo30_57"
+ "Nodo30_54"->"Nodo30_57"[dir = back]
+ "Nodo43_54"[label = "", fillcolor="#e28480", group="43"]                                                                                              
+ "Nodo43_54"->"Nodo56_54"
+ "Nodo43_54"->"Nodo56_54"[dir = back]
+ "Nodo43_54"->"Nodo43_57"
+ "Nodo43_54"->"Nodo43_57"[dir = back]
+ "Nodo56_54"[label = "", fillcolor="#4f2f31", group="56"]                                                                                              
+ "Nodo56_54"->"Nodo56_57"
+ "Nodo56_54"->"Nodo56_57"[dir = back]
+ {rank=same;"Nodo0_54";"Nodo17_54";"Nodo30_54";"Nodo43_54";"Nodo56_54"}
+ "Nodo0_55"[label = "54", group="0"]                                                                                                                   
+ "Nodo0_55"->"Nodo14_55"
+ "Nodo0_55"->"Nodo14_55"[dir = back]
+ "Nodo0_55"->"Nodo0_56"
+ "Nodo0_55"->"Nodo0_56"[dir = back]
+ "Nodo14_55"[label = "", fillcolor="#c44946", group="14"]                                                                                              
+ "Nodo14_55"->"Nodo27_55"
+ "Nodo14_55"->"Nodo27_55"[dir = back]
+ "Nodo27_55"[label = "", fillcolor="#e47867", group="27"]                                                                                              
+ "Nodo27_55"->"Nodo40_55"
+ "Nodo27_55"->"Nodo40_55"[dir = back]
+ "Nodo40_55"[label = "", fillcolor="#e18684", group="40"]                                                                                              
+ "Nodo40_55"->"Nodo53_55"
+ "Nodo40_55"->"Nodo53_55"[dir = back]
+ "Nodo53_55"[label = "", fillcolor="#e18e8b", group="53"]                                                                                              
+ {rank=same;"Nodo0_55";"Nodo14_55";"Nodo27_55";"Nodo40_55";"Nodo53_55"}
+ "Nodo0_56"[label = "55", group="0"]                                                                                                                   
+ "Nodo0_56"->"Nodo10_56"
+ "Nodo0_56"->"Nodo10_56"[dir = back]
+ "Nodo0_56"->"Nodo0_57"
+ "Nodo0_56"->"Nodo0_57"[dir = back]
+ "Nodo10_56"[label = "", fillcolor="#000607", group="10"]                                                                                              
+ "Nodo10_56"->"Nodo23_56"
+ "Nodo10_56"->"Nodo23_56"[dir = back]
+ "Nodo10_56"->"Nodo10_66"
+ "Nodo10_56"->"Nodo10_66"[dir = back]
+ "Nodo23_56"[label = "", fillcolor="#e39aa6", group="23"]                                                                                              
+ "Nodo23_56"->"Nodo36_56"
+ "Nodo23_56"->"Nodo36_56"[dir = back]
+ "Nodo23_56"->"Nodo23_66"
+ "Nodo23_56"->"Nodo23_66"[dir = back]
+ "Nodo36_56"[label = "", fillcolor="#e27c6d", group="36"]                                                                                              
+ "Nodo36_56"->"Nodo49_56"
+ "Nodo36_56"->"Nodo49_56"[dir = back]
+ "Nodo49_56"[label = "", fillcolor="#e18174", group="49"]                                                                                              
+ "Nodo49_56"->"Nodo62_56"
+ "Nodo49_56"->"Nodo62_56"[dir = back]
+ "Nodo62_56"[label = "", fillcolor="#702f25", group="62"]                                                                                              
+ {rank=same;"Nodo0_56";"Nodo10_56";"Nodo23_56";"Nodo36_56";"Nodo49_56";"Nodo62_56"}
+ "Nodo0_57"[label = "56", group="0"]                                                                                                                   
+ "Nodo0_57"->"Nodo17_57"
+ "Nodo0_57"->"Nodo17_57"[dir = back]
+ "Nodo0_57"->"Nodo0_58"
+ "Nodo0_57"->"Nodo0_58"[dir = back]
+ "Nodo17_57"[label = "", fillcolor="#c5494d", group="17"]                                                                                              
+ "Nodo17_57"->"Nodo30_57"
+ "Nodo17_57"->"Nodo30_57"[dir = back]
+ "Nodo17_57"->"Nodo17_60"
+ "Nodo17_57"->"Nodo17_60"[dir = back]
+ "Nodo30_57"[label = "", fillcolor="#e07d6f", group="30"]                                                                                              
+ "Nodo30_57"->"Nodo43_57"
+ "Nodo30_57"->"Nodo43_57"[dir = back]
+ "Nodo30_57"->"Nodo30_60"
+ "Nodo30_57"->"Nodo30_60"[dir = back]
+ "Nodo43_57"[label = "", fillcolor="#e27e70", group="43"]                                                                                              
+ "Nodo43_57"->"Nodo56_57"
+ "Nodo43_57"->"Nodo56_57"[dir = back]
+ "Nodo43_57"->"Nodo43_60"
+ "Nodo43_57"->"Nodo43_60"[dir = back]
+ "Nodo56_57"[label = "", fillcolor="#de4f64", group="56"]                                                                                              
+ "Nodo56_57"->"Nodo56_60"
+ "Nodo56_57"->"Nodo56_60"[dir = back]
+ {rank=same;"Nodo0_57";"Nodo17_57";"Nodo30_57";"Nodo43_57";"Nodo56_57"}
+ "Nodo0_58"[label = "57", group="0"]                                                                                                                   
+ "Nodo0_58"->"Nodo9_58"
+ "Nodo0_58"->"Nodo9_58"[dir = back]
+ "Nodo0_58"->"Nodo0_59"
+ "Nodo0_58"->"Nodo0_59"[dir = back]
+ "Nodo9_58"[label = "", fillcolor="#000406", group="9"]                                                                                                
+ "Nodo9_58"->"Nodo22_58"
+ "Nodo9_58"->"Nodo22_58"[dir = back]
+ "Nodo9_58"->"Nodo9_63"
+ "Nodo9_58"->"Nodo9_63"[dir = back]
+ "Nodo22_58"[label = "", fillcolor="#692b21", group="22"]                                                                                              
+ "Nodo22_58"->"Nodo35_58"
+ "Nodo22_58"->"Nodo35_58"[dir = back]
+ "Nodo22_58"->"Nodo22_63"
+ "Nodo22_58"->"Nodo22_63"[dir = back]
+ "Nodo35_58"[label = "", fillcolor="#e07b70", group="35"]                                                                                              
+ "Nodo35_58"->"Nodo48_58"
+ "Nodo35_58"->"Nodo48_58"[dir = back]
+ "Nodo48_58"[label = "", fillcolor="#e18785", group="48"]                                                                                              
+ "Nodo48_58"->"Nodo61_58"
+ "Nodo48_58"->"Nodo61_58"[dir = back]
+ "Nodo61_58"[label = "", fillcolor="#e05b49", group="61"]                                                                                              
+ {rank=same;"Nodo0_58";"Nodo9_58";"Nodo22_58";"Nodo35_58";"Nodo48_58";"Nodo61_58"}
+ "Nodo0_59"[label = "58", group="0"]                                                                                                                   
+ "Nodo0_59"->"Nodo13_59"
+ "Nodo0_59"->"Nodo13_59"[dir = back]
+ "Nodo0_59"->"Nodo0_60"
+ "Nodo0_59"->"Nodo0_60"[dir = back]
+ "Nodo13_59"[label = "", fillcolor="#df4667", group="13"]                                                                                              
+ "Nodo13_59"->"Nodo26_59"
+ "Nodo13_59"->"Nodo26_59"[dir = back]
+ "Nodo26_59"[label = "", fillcolor="#b4808f", group="26"]                                                                                              
+ "Nodo26_59"->"Nodo39_59"
+ "Nodo26_59"->"Nodo39_59"[dir = back]
+ "Nodo39_59"[label = "", fillcolor="#e28074", group="39"]                                                                                              
+ "Nodo39_59"->"Nodo52_59"
+ "Nodo39_59"->"Nodo52_59"[dir = back]
+ "Nodo52_59"[label = "", fillcolor="#ba4949", group="52"]                                                                                              
+ "Nodo52_59"->"Nodo65_59"
+ "Nodo52_59"->"Nodo65_59"[dir = back]
+ "Nodo65_59"[label = "", fillcolor="#221311", group="65"]                                                                                              
+ {rank=same;"Nodo0_59";"Nodo13_59";"Nodo26_59";"Nodo39_59";"Nodo52_59";"Nodo65_59"}
+ "Nodo0_60"[label = "59", group="0"]                                                                                                                   
+ "Nodo0_60"->"Nodo17_60"
+ "Nodo0_60"->"Nodo17_60"[dir = back]
+ "Nodo0_60"->"Nodo0_61"
+ "Nodo0_60"->"Nodo0_61"[dir = back]
+ "Nodo17_60"[label = "", fillcolor="#d84763", group="17"]                                                                                              
+ "Nodo17_60"->"Nodo30_60"
+ "Nodo17_60"->"Nodo30_60"[dir = back]
+ "Nodo17_60"->"Nodo17_67"
+ "Nodo17_60"->"Nodo17_67"[dir = back]
+ "Nodo30_60"[label = "", fillcolor="#df9cae", group="30"]                                                                                              
+ "Nodo30_60"->"Nodo43_60"
+ "Nodo30_60"->"Nodo43_60"[dir = back]
+ "Nodo43_60"[label = "", fillcolor="#e2989d", group="43"]                                                                                              
+ "Nodo43_60"->"Nodo56_60"
+ "Nodo43_60"->"Nodo56_60"[dir = back]
+ "Nodo56_60"[label = "", fillcolor="#e35347", group="56"]                                                                                              
+ {rank=same;"Nodo0_60";"Nodo17_60";"Nodo30_60";"Nodo43_60";"Nodo56_60"}
+ "Nodo0_61"[label = "60", group="0"]                                                                                                                   
+ "Nodo0_61"->"Nodo6_61"
+ "Nodo0_61"->"Nodo6_61"[dir = back]
+ "Nodo0_61"->"Nodo0_62"
+ "Nodo0_61"->"Nodo0_62"[dir = back]
+ "Nodo6_61"[label = "", fillcolor="#0c0d0e", group="6"]                                                                                                
+ "Nodo6_61"->"Nodo19_61"
+ "Nodo6_61"->"Nodo19_61"[dir = back]
+ "Nodo19_61"[label = "", fillcolor="#d74961", group="19"]                                                                                              
+ "Nodo19_61"->"Nodo32_61"
+ "Nodo19_61"->"Nodo32_61"[dir = back]
+ "Nodo32_61"[label = "", fillcolor="#be8b9d", group="32"]                                                                                              
+ "Nodo32_61"->"Nodo45_61"
+ "Nodo32_61"->"Nodo45_61"[dir = back]
+ "Nodo45_61"[label = "", fillcolor="#654854", group="45"]                                                                                              
+ "Nodo45_61"->"Nodo58_61"
+ "Nodo45_61"->"Nodo58_61"[dir = back]
+ "Nodo58_61"[label = "", fillcolor="#e05a4a", group="58"]                                                                                              
+ {rank=same;"Nodo0_61";"Nodo6_61";"Nodo19_61";"Nodo32_61";"Nodo45_61";"Nodo58_61"}
+ "Nodo0_62"[label = "61", group="0"]                                                                                                                   
+ "Nodo0_62"->"Nodo8_62"
+ "Nodo0_62"->"Nodo8_62"[dir = back]
+ "Nodo0_62"->"Nodo0_63"
+ "Nodo0_62"->"Nodo0_63"[dir = back]
+ "Nodo8_62"[label = "", fillcolor="#491b16", group="8"]                                                                                                
+ "Nodo8_62"->"Nodo21_62"
+ "Nodo8_62"->"Nodo21_62"[dir = back]
+ "Nodo21_62"[label = "", fillcolor="#d64a5e", group="21"]                                                                                              
+ "Nodo21_62"->"Nodo34_62"
+ "Nodo21_62"->"Nodo34_62"[dir = back]
+ "Nodo34_62"[label = "", fillcolor="#5f464f", group="34"]                                                                                              
+ "Nodo34_62"->"Nodo47_62"
+ "Nodo34_62"->"Nodo47_62"[dir = back]
+ "Nodo47_62"[label = "", fillcolor="#c84f39", group="47"]                                                                                              
+ "Nodo47_62"->"Nodo60_62"
+ "Nodo47_62"->"Nodo60_62"[dir = back]
+ "Nodo47_62"->"Nodo47_64"
+ "Nodo47_62"->"Nodo47_64"[dir = back]
+ "Nodo60_62"[label = "", fillcolor="#e05b4d", group="60"]                                                                                              
+ "Nodo60_62"->"Nodo60_64"
+ "Nodo60_62"->"Nodo60_64"[dir = back]
+ {rank=same;"Nodo0_62";"Nodo8_62";"Nodo21_62";"Nodo34_62";"Nodo47_62";"Nodo60_62"}
+ "Nodo0_63"[label = "62", group="0"]                                                                                                                   
+ "Nodo0_63"->"Nodo9_63"
+ "Nodo0_63"->"Nodo9_63"[dir = back]
+ "Nodo0_63"->"Nodo0_64"
+ "Nodo0_63"->"Nodo0_64"[dir = back]
+ "Nodo9_63"[label = "", fillcolor="#dd5640", group="9"]                                                                                                
+ "Nodo9_63"->"Nodo22_63"
+ "Nodo9_63"->"Nodo22_63"[dir = back]
+ "Nodo9_63"->"Nodo9_65"
+ "Nodo9_63"->"Nodo9_65"[dir = back]
+ "Nodo22_63"[label = "", fillcolor="#db4d5b", group="22"]                                                                                              
+ "Nodo22_63"->"Nodo37_63"
+ "Nodo22_63"->"Nodo37_63"[dir = back]
+ "Nodo22_63"->"Nodo22_65"
+ "Nodo22_63"->"Nodo22_65"[dir = back]
+ "Nodo37_63"[label = "", fillcolor="#000102", group="37"]                                                                                              
+ "Nodo37_63"->"Nodo50_63"
+ "Nodo37_63"->"Nodo50_63"[dir = back]
+ "Nodo50_63"[label = "", fillcolor="#d45140", group="50"]                                                                                              
+ "Nodo50_63"->"Nodo63_63"
+ "Nodo50_63"->"Nodo63_63"[dir = back]
+ "Nodo63_63"[label = "", fillcolor="#dd999e", group="63"]                                                                                              
+ {rank=same;"Nodo0_63";"Nodo9_63";"Nodo22_63";"Nodo37_63";"Nodo50_63";"Nodo63_63"}
+ "Nodo0_64"[label = "63", group="0"]                                                                                                                   
+ "Nodo0_64"->"Nodo12_64"
+ "Nodo0_64"->"Nodo12_64"[dir = back]
+ "Nodo0_64"->"Nodo0_65"
+ "Nodo0_64"->"Nodo0_65"[dir = back]
+ "Nodo12_64"[label = "", fillcolor="#df9296", group="12"]                                                                                              
+ "Nodo12_64"->"Nodo25_64"
+ "Nodo12_64"->"Nodo25_64"[dir = back]
+ "Nodo25_64"[label = "", fillcolor="#de4a35", group="25"]                                                                                              
+ "Nodo25_64"->"Nodo47_64"
+ "Nodo25_64"->"Nodo47_64"[dir = back]
+ "Nodo47_64"[label = "", fillcolor="#d7684d", group="47"]                                                                                              
+ "Nodo47_64"->"Nodo60_64"
+ "Nodo47_64"->"Nodo60_64"[dir = back]
+ "Nodo60_64"[label = "", fillcolor="#dd675e", group="60"]                                                                                              
+ {rank=same;"Nodo0_64";"Nodo12_64";"Nodo25_64";"Nodo47_64";"Nodo60_64"}
+ "Nodo0_65"[label = "64", group="0"]                                                                                                                   
+ "Nodo0_65"->"Nodo9_65"
+ "Nodo0_65"->"Nodo9_65"[dir = back]
+ "Nodo0_65"->"Nodo0_66"
+ "Nodo0_65"->"Nodo0_66"[dir = back]
+ "Nodo9_65"[label = "", fillcolor="#743b36", group="9"]                                                                                                
+ "Nodo9_65"->"Nodo22_65"
+ "Nodo9_65"->"Nodo22_65"[dir = back]
+ "Nodo22_65"[label = "", fillcolor="#e74c3a", group="22"]                                                                                              
+ "Nodo22_65"->"Nodo46_65"
+ "Nodo22_65"->"Nodo46_65"[dir = back]
+ "Nodo46_65"[label = "", fillcolor="#332524", group="46"]                                                                                              
+ "Nodo46_65"->"Nodo59_65"
+ "Nodo46_65"->"Nodo59_65"[dir = back]
+ "Nodo59_65"[label = "", fillcolor="#df5c4e", group="59"]                                                                                              
+ {rank=same;"Nodo0_65";"Nodo9_65";"Nodo22_65";"Nodo46_65";"Nodo59_65"}
+ "Nodo0_66"[label = "65", group="0"]                                                                                                                   
+ "Nodo0_66"->"Nodo10_66"
+ "Nodo0_66"->"Nodo10_66"[dir = back]
+ "Nodo0_66"->"Nodo0_67"
+ "Nodo0_66"->"Nodo0_67"[dir = back]
+ "Nodo10_66"[label = "", fillcolor="#56312f", group="10"]                                                                                              
+ "Nodo10_66"->"Nodo23_66"
+ "Nodo10_66"->"Nodo23_66"[dir = back]
+ "Nodo23_66"[label = "", fillcolor="#7e4041", group="23"]                                                                                              
+ "Nodo23_66"->"Nodo51_66"
+ "Nodo23_66"->"Nodo51_66"[dir = back]
+ "Nodo51_66"[label = "", fillcolor="#a26158", group="51"]                                                                                              
+ "Nodo51_66"->"Nodo64_66"
+ "Nodo51_66"->"Nodo64_66"[dir = back]
+ "Nodo51_66"->"Nodo51_67"
+ "Nodo51_66"->"Nodo51_67"[dir = back]
+ "Nodo64_66"[label = "", fillcolor="#9e402f", group="64"]                                                                                              
+ "Nodo64_66"->"Nodo64_67"
+ "Nodo64_66"->"Nodo64_67"[dir = back]
+ {rank=same;"Nodo0_66";"Nodo10_66";"Nodo23_66";"Nodo51_66";"Nodo64_66"}
+ "Nodo0_67"[label = "66", group="0"]                                                                                                                   
+ "Nodo0_67"->"Nodo17_67"
+ "Nodo0_67"->"Nodo17_67"[dir = back]
+ "Nodo0_67"->"Nodo0_68"
+ "Nodo0_67"->"Nodo0_68"[dir = back]
+ "Nodo17_67"[label = "", fillcolor="#673733", group="17"]                                                                                              
+ "Nodo17_67"->"Nodo51_67"
+ "Nodo17_67"->"Nodo51_67"[dir = back]
+ "Nodo51_67"[label = "", fillcolor="#1b1818", group="51"]                                                                                              
+ "Nodo51_67"->"Nodo64_67"
+ "Nodo51_67"->"Nodo64_67"[dir = back]
+ "Nodo64_67"[label = "", fillcolor="#1c1312", group="64"]                                                                                              
+ {rank=same;"Nodo0_67";"Nodo17_67";"Nodo51_67";"Nodo64_67"}
+ "Nodo0_68"[label = "67", group="0"]                                                                                                                   
+ "Nodo0_68"->"Nodo55_68"
+ "Nodo0_68"->"Nodo55_68"[dir = back]
+ "Nodo0_68"->"Nodo0_69"
+ "Nodo0_68"->"Nodo0_69"[dir = back]
+ "Nodo55_68"[label = "", fillcolor="#040809", group="55"]                                                                                              
+ {rank=same;"Nodo0_68";"Nodo55_68"}
+ "Nodo0_69"[label = "68", group="0"]                                                                                                                   
+ "Nodo0_69"->"Nodo57_69"
+ "Nodo0_69"->"Nodo57_69"[dir = back]
+ "Nodo57_69"[label = "", fillcolor="#001012", group="57"]                                                                                              
+ {rank=same;"Nodo0_69";"Nodo57_69"}
+ }

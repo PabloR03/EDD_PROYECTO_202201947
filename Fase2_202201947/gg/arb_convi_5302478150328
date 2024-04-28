@@ -1,0 +1,54 @@
+digraph G{
+node [shape=Msquare];
+Titulo [fontname="Comic Sans MS", color=blue shape=component label="Arbol Binario AVL Imagen"]
+{rank=same; Titulo;}
+"2843069705776"[fontname="Comic Sans MS" label="40"];
+"2843069894912"[fontname="Comic Sans MS" label="20"];
+"2843069705648"[fontname="Comic Sans MS" label="4"];
+"2843069871360"[fontname="Comic Sans MS" label="1"];
+"2843069705584"[fontname="Comic Sans MS" label="10"];
+"2843072659344"[fontname="Comic Sans MS" label="51", color=purple];
+"2843072659344"[fontname="Comic Sans MS" label="51", color=purple];
+"2843072657808"[fontname="Comic Sans MS" label="50", color=purple];
+"2843072658960"[fontname="Comic Sans MS" label="55", color=purple];
+"2843072659824"[fontname="Comic Sans MS" label="52", color=purple];
+"2843072660016"[fontname="Comic Sans MS" label="53", color=purple];
+"2843072658816"[fontname="Comic Sans MS" label="54", color=purple];
+"2843072659776"[fontname="Comic Sans MS" label="56", color=purple];
+"2843072658000"[fontname="Comic Sans MS" label="59", color=purple];
+"2843072658048"[fontname="Comic Sans MS" label="57", color=purple];
+"2843072658528"[fontname="Comic Sans MS" label="58", color=purple];
+"2843072659872"[fontname="Comic Sans MS" label="61", color=purple];
+"2843072658288"[fontname="Comic Sans MS" label="60", color=purple];
+"2843072658480"[fontname="Comic Sans MS" label="62", color=purple];
+"2843069705904"[fontname="Comic Sans MS" label="8"];
+"2843069705968"[fontname="Comic Sans MS" label="33"];
+"2843069705712"[fontname="Comic Sans MS" label="25"];
+"2843069706032"[fontname="Comic Sans MS" label="38"];
+"2843069705840"[fontname="Comic Sans MS" label="46"];
+"2843071999616"[fontname="Comic Sans MS" label="47"];
+"2843069705776" -> "2843069894912" [label = "i"];
+"2843069705776" -> "2843069705840" [label = "d"];
+"2843069894912" -> "2843069705648" [label = "i"];
+"2843069894912" -> "2843069705968" [label = "d"];
+"2843069705648" -> "2843069871360" [label = "i"];
+"2843069705648" -> "2843069705584" [label = "d"];
+"2843069705584" -> "2843072659344" 
+"2843072659344" -> "2843072657808" [label = "i"];
+"2843072659344" -> "2843072658960" [label = "d"];
+"2843072658960" -> "2843072659824" [label = "i"];
+"2843072658960" -> "2843072659776" [label = "d"];
+"2843072659824" -> "2843072660016" [label = "d"];
+"2843072660016" -> "2843072658816" [label = "d"];
+"2843072659776" -> "2843072658000" [label = "d"];
+"2843072658000" -> "2843072658048" [label = "i"];
+"2843072658000" -> "2843072659872" [label = "d"];
+"2843072658048" -> "2843072658528" [label = "d"];
+"2843072659872" -> "2843072658288" [label = "i"];
+"2843072659872" -> "2843072658480" [label = "d"];
+"2843069705584" -> "2843069705904" [label = "i"];
+"2843069705968" -> "2843069705712" [label = "i"];
+"2843069705968" -> "2843069706032" [label = "d"];
+"2843069705840" -> "2843071999616" [label = "d"];
+}
+

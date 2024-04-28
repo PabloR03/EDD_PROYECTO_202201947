@@ -1,0 +1,27 @@
+digraph G{
+node [shape=Mcircle];
+Titulo [fontname="Comic Sans MS", color=red shape=component label="Arbol Binario AVL"]
+{rank=same; Titulo;}
+"2843069705776"[fontname="Comic Sans MS" label="40"];
+"2843069894912"[fontname="Comic Sans MS" label="20"];
+"2843069705648"[fontname="Comic Sans MS" label="4"];
+"2843069871360"[fontname="Comic Sans MS" label="1"];
+"2843069705584"[fontname="Comic Sans MS" label="10"];
+"2843069705904"[fontname="Comic Sans MS" label="8"];
+"2843069705968"[fontname="Comic Sans MS" label="33"];
+"2843069705712"[fontname="Comic Sans MS" label="25"];
+"2843069706032"[fontname="Comic Sans MS" label="38"];
+"2843069705840"[fontname="Comic Sans MS" label="46"];
+"2843071999616"[fontname="Comic Sans MS" label="47"];
+"2843069705776" -> "2843069894912" [label = "i"];
+"2843069705776" -> "2843069705840" [label = "d"];
+"2843069894912" -> "2843069705648" [label = "i"];
+"2843069894912" -> "2843069705968" [label = "d"];
+"2843069705648" -> "2843069871360" [label = "i"];
+"2843069705648" -> "2843069705584" [label = "d"];
+"2843069705584" -> "2843069705904" [label = "i"];
+"2843069705968" -> "2843069705712" [label = "i"];
+"2843069705968" -> "2843069706032" [label = "d"];
+"2843069705840" -> "2843071999616" [label = "d"];
+}
+

@@ -1,9 +1,0 @@
-digraph G{
-node [shape=Mcircle];
-Titulo [fontname="Comic Sans MS", color=red shape=component label="Arbol Binario AVL"]
-{rank=same; Titulo;}
-"2039115131056"[fontname="Comic Sans MS" label="1"];
-"2039115148576"[fontname="Comic Sans MS" label="3"];
-"2039115131056" -> "2039115148576" [label = "d"];
-}
-
