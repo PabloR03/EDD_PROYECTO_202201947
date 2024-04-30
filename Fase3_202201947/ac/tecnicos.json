@@ -1,0 +1,20 @@
+[
+    {
+        "dpi": 1234567891234,
+        "nombre": "Juan Pablo",
+        "apellido": "Perez",
+        "genero": "masculino",
+        "direccion": "8 calle 3-45 zona 1",
+        "telefono": 12345678
+    },
+
+    {
+        "dpi": 1234567891235,
+        "nombre": "Maria",
+        "apellido": "Gonzalez",
+        "genero": "femenino",
+        "direccion": "8 calle 3-45 zona 1",
+        "telefono": 12345678
+    }
+
+]
